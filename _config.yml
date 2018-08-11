@@ -1,17 +1,17 @@
 course: "CS56"
-qtr: "M18"
-quarter: "Summer 2018"
+qtr: "F18"
+quarter: "Fall 2018"
 piazza_url: https://piazza.com/class/tbd
 gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=tbd
-github_org_name: ucsb-cs56-m18
-github_org_url: https://github.com/ucsb-cs56-m18
+github_org_name: ucsb-cs56-f18
+github_org_url: https://github.com/ucsb-cs56-f18
 
-ta_list: "Mahnaz and Santha"
-ta_list_full: "Mahnaz Koupaee and Santha Ramamoorthy"
-mentors_list: "Chandler, Charlie (Fuheng) Derek (Guancheng), Nuan, Omer, Wilson, Yunkai, Zihao"
-discussion_section_times: "9:30am, 11am"
+ta_list: "TBD and TBD"
+ta_list_full: "TBD lname and TBD lname"
+mentors_list: "TBD, TBD, TBD, and TBD"
+discussion_section_times: "5pm,&nbsp;6pm,&nbsp;7pm"
 
-github_url: https://github.com/ucsb-cs56-m18/ucsb-cs56-m18.github.io
+github_url: https://github.com/ucsb-cs56-f18/ucsb-cs56-f18.github.io
 mentor_url: https://ucsb-cs56-pconrad-mentors.github.io
 
 on_campus: http://proquest.safaribooksonline.com
@@ -22,19 +22,25 @@ hfdp_url: book/software-engineering-and-development/patterns/0596007124
 legacy_wiki_url: https://foo.cs.ucsb.edu/56wiki
 legacy_wiki_name: "56wiki"
 
-submit_cs_course: CS56_m18
+submit_cs_course: TBD
 
-start_week: 1
-start_date: 2018-08-05 00:00:00.00-8:00
-num_weeks: 6
-extra_exam_week: false
-sections: "9:30am&nbsp;or&nbsp;11am"
+start_week: 0
+start_date: 2018-09-23 00:00:00.00-8:00
+num_weeks: 11
+extra_exam_week: true
+sections: "5pm,&nbsp;6pm,&nbsp;7pm"
 
 cal_dates: >
   [
-  {"label":"Session B classes begin", "date":"2018-08-06" },
-  {"label":"Session B classes end", "date":"2018-09-15" },	
-  {"label":"Univ Holiday", "date":"2018-09-03" },
+    {"label":"F18 official start date", "date":"2018-09-23" },
+    {"label":"F18 1st day of instruction", "date":"2018-09-27" },	
+    {"label":"Univ Holiday", "date":"2018-11-12" },
+    {"label":"Univ Holiday", "date":"2018-11-22" },
+    {"label":"Univ Holiday", "date":"2018-11-23" },
+    {"label":"F18 instruction ends", "date":"2018-12-07" },
+    {"label":"F18 finals start", "date":"2018-12-08" },
+    {"label":"F18 finals end", "date":"2018-12-14" },
+    {"label":"F18 qtr ends", "date":"2018-12-14" }
   ]
 
 hwk_drop_lowest: three
