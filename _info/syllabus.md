@@ -1,5 +1,5 @@
 ---
-title: "Syllabus, CMPSC 56, Summer 2018"
+title: "Syllabus, CMPSC 56, Fall 2018"
 layout: handout
 ready: false
 ---
@@ -72,8 +72,9 @@ A+ grades: These may be awarded to the very best performing students in the clas
 
 | Grade Item                                                                   | Percentage of Final Grade |
 |------------------------------------------------------------------------------|---------------------------|
-| Midterm  | 30 % |
-| Final | 30 % |
+| Midterm 1 | 20 % |
+| Midterm 2 | 20 % |
+| Final | 20 % |
 | Hwks, In Class Assignments | 10 % |
 | Labs (typically closed source, some open source) | 10 % |
 | Projects (open source) | 20 % |
@@ -103,6 +104,8 @@ More On Grading
 ---------------
 
 We'll have three exams--two midterms and a final. That part of the course will be traditional. And, there will be some traditional lab and homework assignments (and perhaps quizzes) where "everybody in the class does roughly the same thing"---those make up another 20% of your grade.
+
+Some homework assignments might be submitted on Gradescope, and those may have the option of submitting as a pair or as a group.  If you *choose* this option, you are making *one* submission for the pair or group, and everyone gets a grade based on that submission.  If you just work together as "homework buddies", you are not required to make a pair submission, but if you do, you both earn the same grade (even if you have an earlier submission in your submission history.)
 
 Note that, at the discretion of the instructor, part of one of the midterms, and/or part of the final exam may a "lab final", i.e. a set of exercises done in the laboratory setting under exam conditions.   The division of points between written final the lab final will be at the discretion of the instructor, and announced later in the quarter.
 
