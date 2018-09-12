@@ -11,10 +11,10 @@ Basic Facts
 
 * **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad) (contact via Piazza)
    * Use the "instructor messsage" feature to contact Prof. Conrad, as well as all TAs, Readers and Mentors
-* **Lecture**: TWR 9:30am-10:50am Phelps 3526. ATTENDANCE REQUIRED. 
+* **Lecture**: TIME TBA ROOM TBA. ATTENDANCE REQUIRED. 
 * **TAs**: {{site.ta_list_full}} (contact via Piazza)
 * **Mentors**: {{site.mentors_list}} (contact via Piazza)
-* **Lab** (80 minute discussion section) Friday {{site.discussion_section_times}}, Phelps 3525. ATTENDANCE REQUIRED.                                         
+* **Lab** (80 minute discussion section) Thursday {{site.discussion_section_times}}, Phelps 3525. ATTENDANCE REQUIRED.                                         
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
 For course website links, visit the course Gauchospace site.
