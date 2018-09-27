@@ -14,7 +14,7 @@ Basic Facts
 * **Lecture**: TIME TBA ROOM TBA. ATTENDANCE REQUIRED. 
 * **TAs**: {{site.ta_list_full}} (contact via Piazza)
 * **Mentors**: {{site.mentors_list}} (contact via Piazza)
-* **Lab** (80 minute discussion section) Thursday {{site.discussion_section_times}}, Phelps 3525. ATTENDANCE REQUIRED.                                         
+* **Lab** (50 minute discussion section) Thursday {{site.discussion_section_times}}, Phelps 3525. ATTENDANCE REQUIRED.                                         
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
 For course website links, visit the course Gauchospace site.
