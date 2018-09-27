@@ -3,7 +3,7 @@ layout: lab
 num: lab01
 ready: false
 desc: "Tools for java development"
-assigned: 2018-09-27 09:30
+assigned: 2018-09-27 16:00
 due: 2018-10-05 23:59
 org: ucsb-cs56-m18
 herokuapp: "https://ucsb-cs-github-linker.herokuapp.com/"
@@ -14,7 +14,7 @@ If you find typos or problems with the lab instructions, please report them on P
 Overview of this lab
 ====================
 
-1. Work in your pair partnership on this project.  Don't start working unless you are sitting together.  This should be a true pair partner assignment.    In true pairing, every line of code goes through the minds of two programmers.  Please read this [blog post from the well-known Agile Coach LLewellen Falco](http://llewellynfalco.blogspot.com/2014/06/llewellyns-strong-style-pairing.html) that explains the idea of **strong-style pairing**.
+1. You are encouraged to work with a pair partner on this project.  Don't start working unless you are sitting together.  This should be a true pair partner assignment.    In true pairing, every line of code goes through the minds of two programmers.  Please read this [blog post from the well-known Agile Coach LLewellen Falco](http://llewellynfalco.blogspot.com/2014/06/llewellyns-strong-style-pairing.html) that explains the idea of **strong-style pairing**.
 
 1. Login at github.com.  Click on the drop down menu at left where your username appears, and ensure that <tt>{{page.org}}</tt> appears    among your organizations in the drop down menu.    (Note: The image might have ucsb-cs56-w18, but your page should have {{site.github-org-name}} instead.   The URL for that org is <{{site.github-org-url}}>, and if you followed the steps in lab00, you should have an invitiation to join that org.
 
