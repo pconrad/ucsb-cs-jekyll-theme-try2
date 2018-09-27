@@ -3,12 +3,11 @@ layout: lab
 num: lab02
 ready: false
 desc: "Polynomials"
-assigned: 2018-08-16 09:30
+assigned: 2018-09-27 16:00
 due: 2018-08-23 23:59
 submit_cs_link: "https://submit.cs.ucsb.edu/form/project/941/submission"
 github_org: "ucsb-cs56-w18"
 starter_repo: "https://github.com/ucsb-cs56-w18/STARTER_lab02"
-last_before: "Midterm Exam E01"
 ---
 
 In this lab:
