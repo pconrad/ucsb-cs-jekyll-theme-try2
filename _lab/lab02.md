@@ -5,7 +5,6 @@ ready: true
 desc: "Polynomials"
 assigned: 2018-09-27 16:00
 due: 2018-10-11 23:59
-submit_cs_link: "https://submit.cs.ucsb.edu/form/project/941/submission"
 github_org: "ucsb-cs56-w18"
 starter_repo: "https://github.com/ucsb-cs56-w18/STARTER_lab02"
 ---
