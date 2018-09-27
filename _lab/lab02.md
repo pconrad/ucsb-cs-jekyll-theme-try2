@@ -40,9 +40,9 @@ Then, create an empty directory for lab02, do a `git init` and then add remotes 
 
 The starter code is in <{{page.starter_repo}}>.  Visit that page for the approrpiate URL to add the `starter` remote.
 
-## If pairing, register your pair on submit.cs
+## If pairing, register your pair on Gradescope
 
-On submit.cs, on the page {{page.submit_cs}}, there should be a blue "Join Groups" button.     Use this to add another student to your pair.
+On Gradescope, you can mark your submission as a pair submission.    Be sure to do this if you are working in a pair.
 
 ## Working in a pair? Switch navigator/driver frequently and tradeoff who commits
 
