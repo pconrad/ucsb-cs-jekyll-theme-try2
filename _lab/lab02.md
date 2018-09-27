@@ -380,18 +380,6 @@ Then do the steps to publish the updated javadoc to your public repo.
 Go through the git steps one last time in case you made any last minute changes. Be sure that your repo is up to date. When it is, you are ready to submit on Gauchospace.
 
 
-Step 5: Submitting via submit.cs
---------------------------------
-
-UPDATE: We are using submit.cs for {{page.num}}.
-
-Please download a `.zip` file from your github repo, rename it to <tt>{{page.num}}</tt>`.zip` and submit it at: <{{page.submit_cs_link}}>
-
-* If you worked in a pair, please register your pair as a *group* in submit.cs for {{page.num}} before submitting.  One partner's submission
-  on submit.cs counts for both of you.
-* If you haven't yet registered for submit.cs, register on the submit.cs page with your umail address, then join the {{site.course}}_{{site.qtr|downcase}} course.
-
-
 # Grading:
 
 * Part of your grade is determined by the points shown on submit.cs
