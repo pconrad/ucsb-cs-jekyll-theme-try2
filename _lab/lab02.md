@@ -396,6 +396,7 @@ Please download a `.zip` file from your github repo, rename it to <tt>{{page.num
 
 * Part of your grade is determined by the points shown on submit.cs
 * The remainder is determined by the following:
-   * (25 pts) Did you follow the instructions for setting up your repo? (naming, making it private, pulling in starter code,
+   * (5 pts) Did you follow the instructions for setting up your repo? (naming, making it private, pulling in starter code,
      adding partner as collaborator)
-   * (25 pts) Did you publish your javadoc correctly, link to it from your README, and in general, tidy up your README, and make changes to build.xml as indicated?
+   * (10 pts) Did you publish your javadoc correctly, link to it from your README, and in general, tidy up your README, and make changes to build.xml as indicated?
+   * (5 pts) Are your commit messages in the proper form, with the initials of driver/navigator and with reasonable messages describing the changes in each commit?
