@@ -148,7 +148,14 @@ So, don't repeat yourself:
 * Define addition before subtraction, and then define subtraction in terms of addition and multiplication.
 * Define reciprocal before division, then define division as multiplication by the reciprocal.
 
-# Grading:
+# Submitting on Gradescope
+
+For this assignment, you should either 
+1. Submit on Gradescope directly from your github repo (recommended), OR
+2. submit a .zip file with your entire directory BY DOWNLOADING THAT .zip FILE FROM GITHUB without unzipping it.
+
+We do NOT recommmend zipping the file up yourself; when folks have tried this, the backend of Gradescope tends not to like it.  The scripts are set up to look for the .zip format that comes from options (1) and (2) listed above.
+
 
 * Submit on Gradescope.  Part of your grade is determined by the automatic points assigned  on Gradescope for automated tests.
 * The remainder is determined by manual grading using the following rubric:
