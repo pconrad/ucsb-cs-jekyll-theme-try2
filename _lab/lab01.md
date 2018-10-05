@@ -112,14 +112,7 @@ Overview of this lab
     * done a `git status` to see if any changes (e.g. changes to code, build.xml, javadoc) need to be added, committed and pushed)
     * done a final `git push origin master` to push your changes to github.
     
-    Then, you can download a .zip version of your assignment from github, rename it to `lab01.zip`, and 
-    submit via submit.cs at this link: <{{page.submit_cs}}> 
-
-    * NOTE: When you download the `.zip` file, try to do so in a way
-        that does NOT automatically unzip it as you download it.  If
-        you do this, and then "rezip" it before submitting, it can
-        mess up the structure of the file in a way that causes it to
-        fail the tests on submit.cs.
+    Then submit on Gradescope.
 
 Detailed Instructions for Programming Assignment
 ================================================
