@@ -4,8 +4,8 @@ num: lab02
 ready: true
 desc: "Polynomials"
 assigned: 2018-09-27 16:00
-due: 2018-10-11 23:59
-github_org: "ucsb-cs56-w18"
+due: 2018-10-18 23:59
+github_org: "ucsb-cs56-f18"
 starter_repo: "https://github.com/ucsb-cs56-w18/STARTER_lab02"
 ---
 
