@@ -156,8 +156,9 @@ For this assignment, you should either
 
 We do NOT recommmend zipping the file up yourself; when folks have tried this, the backend of Gradescope tends not to like it.  The scripts are set up to look for the .zip format that comes from options (1) and (2) listed above.
 
+# Grading
 
-* Submit on Gradescope.  Part of your grade is determined by the automatic points assigned  on Gradescope for automated tests.
+* Part of your grade is determined by the automatic points assigned  on Gradescope for automated tests.
 * The remainder is determined by manual grading using the following rubric:
    * (25 pts) Did you follow the instructions for setting up your repo? (naming, making it private, pulling in starter code,
      adding partner as collaborator)
