@@ -6,7 +6,6 @@ desc: "Intro to Web Applications"
 assigned: 2018-10-11 16:00
 due: 2018-10-18 23:59
 github_org: "ucsb-cs56-f18"
-starter_repo: "https://github.com/ucsb-cs56-f18/STARTER_REPO_TBD"
 gauchospace_url: "https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=TBD"
 sparkjava_01_repo_url: "https://github.com/ucsb-cs56-pconrad/sparkjava-01"
 ---
