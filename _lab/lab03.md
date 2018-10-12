@@ -25,8 +25,9 @@ If you are working on CSIL, you can skip this step.
 
 But if you are working on your own machine, you'll need to install a few things before proceeding.
 
+Here are some commands to let you be familiar with Maven in 5 mins! <https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html>
+
 * Install Maven.  Instructions are here: <https://maven.apache.org/index.html>
-	          Here are some commands to let you be familiar with Maven in 5 mins! <https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html>
 		  If you are a Mac user, try to install Maven using Homebrew. 
 		  Type "brew install maven" in your Terminal. (Check if your mac have Homebrew installed firstly)
 		  
