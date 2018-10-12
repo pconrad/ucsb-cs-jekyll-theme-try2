@@ -25,8 +25,8 @@ If you are working on CSIL, you can skip this step.
 
 But if you are working on your own machine, you'll need to install a few things before proceeding.
 
-* Install Maven.  Instructions are here: https://maven.apache.org/download.cgi
-* Install the Heroku CLI.  Instructions are here: https://devcenter.heroku.com/articles/heroku-cli#download-and-install
+* Install Maven.  Instructions are here: <https://maven.apache.org/download.cgi/>
+* Install the Heroku CLI.  Instructions are here: <https://devcenter.heroku.com/articles/heroku-cli#download-and-install/>
 
 
 Step 1: Understanding what we are trying to do
