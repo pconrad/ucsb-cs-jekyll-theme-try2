@@ -153,19 +153,10 @@ There is also a class `Menu`, which wraps an `ArrayList<MenuItem>`.
 
 The constructor takes no arguments, and simply initializes an empty ArrayList. (It is given in the starter code.)
 
-# Details about methods of Menu
+There is a follow up lab in which we will add a `Menu` class that uses these menu items; but 
+we need to discuss sorting, `java.lang.Comparable`, `java.util.Comparator`, 
+and Java lambda expressions in lecture first.
 
-
-The methods for `Menu` are as follows:
-
-| Modifier and Type	| Method | Description |
-|-|-|
-|void	add(MenuItem mi) | add a menu item to the menu (to the wrapped ArrayList)|
-|String|	csv() | Produce a listing of each item in csv format, with newlines between each item.  Order is whatever order the items are currently in the ArrayList |
-|String|	csvSortedByName() | same as `csv()`, but the items should be sorted in lexicographic order by name. |
-|String|	csvSortedByCategoryThenName() | same as `csv()`, but the items should be sorted by category.  With the same category, the items should be sorted by name.  |
-|String|	csvSortedByCategoryThenPriceDescendingThenByName() | same as `csv()`, but the items should be sorted by category.  With the same category, the items should be sorted by name. |
-|String|	csvSortedByPriceThenName() | |
 
 # When all your tests pass
 
