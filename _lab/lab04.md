@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab04
-ready: false
+ready: true
 desc: "Testing and Test Case Coverage"
 assigned: 2018-10-18 16:00
 due: 2018-10-26 23:59
