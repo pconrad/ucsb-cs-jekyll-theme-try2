@@ -97,17 +97,20 @@ Here are the commands you'll need as you work with the code. Try them out now.
 | generate a jar file | `mvn package` |
 
 
-# Step 2: Start writing code.
+# Step 2: Start writing code to make tests pass
 
-In this lab, you'll be implementing several methods of two classes that represent a restaurant Menu, composed of MenuItems.
+In this lab, you'll be implementing several methods of a class called `MenuItem` that represents
+item on a restaurant Menu.
 
-A MenuItem represents an item on the menu of a restaurant.  It has three attributes:
+(There is a follow up lab in which we will add a `Menu` class that uses these menu items; but 
+we need to discuss sorting, `java.lang.Comparable`, `java.util.Comparator`, 
+and Java lambda expressions in lecture first before we get to that.)
+
+A `MenuItem` represents an item on the menu of a restaurant.  It has three attributes:
 * the menu item name, e.g. `"Small Poke Bowl"`
 * the price, in cents (e.g an item that costs $1.49 is represented by the integer 149)
 * a category such as `"Beverages"` or `"Poke Bowls"`
 
-A Menu is simply an encapsulated list of MenuItems.  What Menu adds over ArrayList is the ability to sort the menu in various ways
-that might be useful in producing formatted menus.
 
 Note that the starter code:
 * Has stubs for SOME of the needed methods, but NOT ALL of them
@@ -126,8 +129,6 @@ I suggest that you work in this order:
    * Then make the test pass.
    * Then submit on Gradescope and see if the test for that method passes on Gradescope
    * Continue until all of your methods work.
-
-I suggest getting the `toString()` of the `MenuItem` class to work before trying the `csv()` method of `Menu` or any of the extended versions of that method that require sorting.
 
 # Details about methods of MenuItem
 
@@ -149,17 +150,7 @@ Here are the instance methods you'll need to implement for `MenuItem`
 | int	| getPriceInCents() | get the price in cents only |
 | String	| toString() | return a string in csv format, in the order name,price,cateogry. <br> For example: `"Small Poke Bowl,1049,Poke Bowls"`<br>In this case, the price is unformatted; just an integer number of cents. |
 
-There is also a class `Menu`, which wraps an `ArrayList<MenuItem>`.
-
-The constructor takes no arguments, and simply initializes an empty ArrayList. (It is given in the starter code.)
-
-There is a follow up lab in which we will add a `Menu` class that uses these menu items; but 
-we need to discuss sorting, `java.lang.Comparable`, `java.util.Comparator`, 
-and Java lambda expressions in lecture first.
-
-
-# When all your tests pass
-
+# Step 3: Checking Test Case Coverage 
 
 Be sure that you've added your pair partner to your submissions on Gauchospace
 
@@ -173,7 +164,9 @@ Then, check your test coverage:
       just double-click on the file `target/site/jacoco/index.html` to open it.
  
 Some of the points in the manual inspection may be awarded on the basis of having good test coverage.  
-While 100% test coverage is not always the goal, in this particular exercise, it *should be possible*.    So if you see that you don't have 100% test coverage, go back and write some additional unit tests.
+While 100% test coverage is not always the goal, in this particular exercise, it *should be possible*.   
+
+So if you see that you don't have 100% test coverage, go back and write some additional unit tests.
 
 ## How to read the test coverage reports
 
