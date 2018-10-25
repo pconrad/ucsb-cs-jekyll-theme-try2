@@ -11,3 +11,8 @@ last_before: "Midterm Exam E01"
 ---
 
 Coming soon (by 5pm today)
+
+
+<div style="color:red; border: 1px solid black; font-size: 120%;">
+DON'T START YET... UNTIL THIS BANNER DISAPPEARS.  THIS IS STILL UNDER CONSTRUCTION.
+</div>
