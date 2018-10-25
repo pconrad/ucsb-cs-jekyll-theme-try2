@@ -14,9 +14,14 @@ last_before: "Midterm Exam E01"
 Coming soon (by 5pm today)
 
 
-<div style="color:red; border: 1px solid black; font-size: 120%;">
-DON'T START YET... UNTIL THIS BANNER DISAPPEARS.  THIS IS STILL UNDER CONSTRUCTION.
+<div style="background-color: #dfe; border: 4px insert #c00; font-size: 120%;">
+You will need to read this article first in order to know how to do this lab:
+<https://ucsb-cs56-pconrad.github.io/topics/java_sorting/>
+Some of that will be review from the text, but there is also some new information; particularly 
+about using lambda functions to sort.
 </div>
+
+
 
 In this lab:
 
@@ -82,7 +87,10 @@ In the previous lab, {{page.prev_num}}, you implemented several methods of a cla
 item on a restaurant Menu.   Now, we will implement the `Menu` class.   The details about the `Menu` class appear below.
 
 Ideally, we'd need to discuss sorting, `java.lang.Comparable`, `java.util.Comparator`, 
-and Java lambda expressions in lecture first; instead, I'll link to some materials where you can read about those.
+and Java lambda expressions in lecture first; instead, here is a link to some materials you can read to learn what you need to know:
+* <https://ucsb-cs56-pconrad.github.io/topics/java_sorting/>
+
+
 
 Just like last week, note that the starter code:
 * Has stubs for SOME of the needed methods, but NOT ALL of them
