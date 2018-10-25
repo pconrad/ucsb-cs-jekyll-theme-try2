@@ -2,7 +2,7 @@
 layout: lab
 num: lab05
 prev_num: lab04
-ready: false
+ready: true
 desc: "Sorting"
 assigned: 2018-10-25 16:00
 due: 2018-10-26 23:59
@@ -11,10 +11,7 @@ starter_repo: "https://github.com/ucsb-cs56-f18/STARTER_lab05"
 last_before: "Midterm Exam E01"
 ---
 
-Coming soon (by 5pm today)
-
-
-<div style="background-color: #dfe; border: 4px insert #c00; font-size: 120%;">
+<div style="background-color: #dfe; border: 4px inset #c00; font-size: 120%; width:80%; margin-left:auto;margin-right:auto;text-align:center;">
 You will need to read this article first in order to know how to do this lab:
 <https://ucsb-cs56-pconrad.github.io/topics/java_sorting/>
 Some of that will be review from the text, but there is also some new information; particularly 
