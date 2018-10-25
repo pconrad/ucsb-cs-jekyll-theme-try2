@@ -107,7 +107,7 @@ The methods for `Menu` are as follows:
 
 | Modifier and Type	| Method | Description |
 |-|-|-|
-|void	add(MenuItem mi) | add a menu item to the menu (to the wrapped ArrayList)|
+|`void	add(MenuItem mi)` | add a menu item to the menu (to the wrapped `ArrayList<MenuItem>`)|
 |`String`|	`csv()` | Produce a listing of each item in csv format, with newlines between each item.  Order is whatever order the items are currently in the ArrayList |
 |`String`|	`csvSortedByName()` | same as `csv()`, but the items should be sorted in lexicographic order by name. |
 |`String`|	`csvSortedByCategoryThenName()` | same as `csv()`, but the items should be sorted by category.  With the same category, the items should be sorted by name.  |
