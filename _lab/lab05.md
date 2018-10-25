@@ -137,13 +137,8 @@ While 100% test coverage is not always the goal, in this particular exercise, it
 
 So if you see that you don't have 100% test coverage, go back and write some additional unit tests.
 
-## How to read the test coverage reports
+For a review of how to read the test coverage reports provided by Jacoco, see: <https://ucsb-cs56-pconrad.github.io/topics/testing_jacoco_reports/>
 
-* If any line of code is red, that means it is not tested at all&mdash;it is being missed by *line coverage*
-* If a line of code is yellow, it means there are multiple ways to execute the line.
-   * it may have an if/else, or a boolean expression involving `&&` or `||`, and thus there are multiple paths through the code (multiple branches).  
-   * Yellow means it is being missed by *branch coverage*; some branches are covered, and others are not.   
-   * Think about the multiple paths through the code and be sure your tests are coverage all of them.
 
 # End of description for {{page.num}}
 
