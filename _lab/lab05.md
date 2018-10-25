@@ -106,13 +106,13 @@ I suggest that you work in this order:
 The methods for `Menu` are as follows:
 
 | Modifier and Type	| Method | Description |
-|-|-|
+|-|-|-|
 |void	add(MenuItem mi) | add a menu item to the menu (to the wrapped ArrayList)|
 |`String`|	`csv()` | Produce a listing of each item in csv format, with newlines between each item.  Order is whatever order the items are currently in the ArrayList |
 |`String`|	`csvSortedByName()` | same as `csv()`, but the items should be sorted in lexicographic order by name. |
 |`String`|	`csvSortedByCategoryThenName()` | same as `csv()`, but the items should be sorted by category.  With the same category, the items should be sorted by name.  |
 |`String`|	`csvSortedByCategoryThenPriceDescendingThenByName()` | same as `csv()`, but the items should be sorted by category.  With the same category, the items should be sorted by name. |
-|`String`|	`csvSortedByPriceThenName()` | |
+|`String`|	`csvSortedByPriceThenName()` | same as `csv()`, but the items should be sorted by price, from lowest to highest.  When more than one items has the same price, the items of the same price should be sorted by name. |
 
 # Step 3: Checking Test Case Coverage 
 
