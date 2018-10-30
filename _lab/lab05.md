@@ -61,7 +61,7 @@ That should get your repo for {{page.num}} set up with a copy of your repo from 
 # Step 1: Copy code for a new class and a new set of tests into your repo.
 
 Though there is starter code for this week, it is not a full repo; instead it is just two files that you need to copy to their
-proper spots.  In that repo, <https://github.com/ucsb-cs56-f18/STARTER_lab05>, you'll find these files:
+proper spots.  In that repo, <{{page.starter_repo}}>, you'll find these files:
 
 | File | Where to copy it in your {{page.num}} repo |
 |------|----------|
