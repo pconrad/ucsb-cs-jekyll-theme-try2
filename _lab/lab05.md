@@ -8,7 +8,6 @@ assigned: 2018-10-25 16:00
 due: 2018-11-02 23:59
 github_org: "ucsb-cs56-f18"
 starter_repo: "https://github.com/ucsb-cs56-f18/STARTER_lab05"
-last_before: "Midterm Exam E02"
 ---
 
 <div style="background-color: #dfe; border: 4px inset #c00; font-size: 120%; width:80%; margin-left:auto;margin-right:auto;text-align:center;">
