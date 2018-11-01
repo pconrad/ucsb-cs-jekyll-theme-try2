@@ -93,12 +93,41 @@ If so, you are ready for the next step.
 
 
 
-# Step 5: Clone repo and pull in starter code
+# Step 5: Choose a web app and document your choice
 
+Now, choose one of the following proposed webapps, or choose one of your own.
+* In the README.md of your repo, make a note at the top of the file indicating which of these proposed webapps you chose.
+* Also add your name, and if working in a pair or trio, the names of all members of your group.
+* If you choose your own webapp, write a brief description of the app on the README.md of your repo.
 
+# Step 6: Modify the nav bar, and the placeholder pages
 
+You are now going to imagine that you have built a "minimum viable product" for the webapp that you chose.
 
-# Step 6: Login to Heroku 
+Imagine what the navigation bar of that app looks like. 
+* What options are on that navigation bar?  What is the text on each of those?
+* What is on the page that that page links to?
+
+Now modify the code:
+* Change the names of the links in `HelloController.java` to be the links you want to link to, instead of `/link1` and `/link2`
+* Change the names of the files in `/src/main/resources/templates/` from `page1.ftl` and `page2.ftl` to reasonable names.
+* On the pages, replace the text there with a brief description of what would happen on that page.  For example:
+
+<blockquote markdown="1">
+On this page, the user will be able to enter the name of a city they want to visit, and press "find coffee shops".  The 
+page will then show a list of all the coffee shops in that city.
+</blockquote>
+
+OR: 
+
+<blockquote markdown="1">
+On this page, the user will enter all of the courses they still need to take in order to graduate.  Those courses will then
+be stored in the database so that they are there the next time the users logs in.
+</blockquote>
+
+Iterate on this until the navigation bar has a set of options, and a set of placeholder pages that, if you implemented all of them with the functionality described, would be a reasonably good start at the webapp proposed.
+
+# Step 7: Login to Heroku 
 
 If you didn't already create a Heroku account on the free plan, do so now.  There is additional information in the instructions for [{{page.prev_num}}](/labs/{{page.prev_num}}).
 
@@ -110,7 +139,7 @@ heroku login
 
 Additionally, open a web browser window and login to heroku at <https://dashboard.heroku.com>.
 
-# Step 7: Create a new Heroku App using the Heroku CLI
+# Step 8: Create a new Heroku App using the Heroku CLI
 
 Logged into CSIL (or one of the machines in the CSTL, i.e. Phelps 3525), use this command to login to Heroku at the command line:
 
@@ -128,7 +157,7 @@ Note: please do not literally put the letters <tt><i>githubid</i></tt> in your a
 <tt>heroku create cs56-{{site.qxx}}-<i>githubid</i>-{{page.num}}</tt>
 
 
-# Step 8: Modify the pom.xml file to refer to your heroku app
+# Step 9: Modify the pom.xml file to refer to your heroku app
 
 In the `pom.xml` file, find the `<plugins>` element.   Add the following `<plugin>` somewhere inside the `<plugins`> element.  
 * That is, the entire contents from `<plugin>` to `</plugin>` should be nested between the the `<plugin>` open tag, and the `</plugins>` close tag.
@@ -219,7 +248,7 @@ If it doesn't work, try these things before asking a mentor, TA, or instructor f
 
 
 
-# Step 9: Submitting your work for grading
+# Step 10: Submitting your work for grading
 
 When you have a running web app, visit <{{page.gauchospace_url}}> and make a submission.
 
