@@ -31,12 +31,10 @@ Spring Boot is:
 
 We'll start by putting up a simple Hello World app, and then a little at a time, we'll add some features to that app, documenting as we go.
 
-# Step 0: Create a repo for {{page.num}}
 
 
 
-Step 0: If you are working on your own machine
-----------------------------------------------
+# Step 0: If you are working on your own machine
 
 You can skip this step if:
 * You are working on CSIL
@@ -47,8 +45,19 @@ Otherwise, visit the page for [{{page.prev_num}}](/labs/{{page.prev_num}}) and f
 * Install Maven on your machine
 * Install the Heroku CLI on your machine.
 
-Step 2: Login to Heroku 
------------------------
+# Step 1: Create a repo
+
+Create an empty project repo under the {{site.org}} github organization.
+
+| If working like this | Create a repo with this name|
+|----------------------|-----------------------------|
+| Alone                | <tt>{{page.num}}-githubid</tt>  |
+| In a pair            | <tt>{{page.num}}-githubid1-githubid2</tt> (put `githubid1` and `githubid2` in alphabetical order |
+| In a group of three  | <tt>{{page.num}}-githubid1-githubid2-githubid3</tt> (put `githubid1`, `githubid2` and `githubid3` in alphabetical order |
+
+
+
+# Step 5: Login to Heroku 
 
 If you didn't already create a Heroku account on the free plan, do so now.  There is additional information in the instructions for [{{page.prev_num}}](/labs/{{page.prev_num}}).
 
@@ -60,8 +69,7 @@ heroku login
 
 Additionally, open a web browser window and login to heroku at <https://dashboard.heroku.com>.
 
-
-# Step 4: Create a new Heroku App using the Heroku CLI
+# Step 6: Create a new Heroku App using the Heroku CLI
 
 Logged into CSIL (or one of the machines in the CSTL, i.e. Phelps 3525), use this command to login to Heroku at the command line:
 
@@ -79,7 +87,7 @@ Note: please do not literally put the letters <tt><i>githubid</i></tt> in your a
 <tt>heroku create cs56-{{site.qxx}}-<i>githubid</i>-{{page.num}}</tt>
 
 
-# Step 5: Modify the pom.xml file to refer to your heroku app
+# Step 7: Modify the pom.xml file to refer to your heroku app
 
 In the `pom.xml` file, find the `<plugins>` element.   Add the following `<plugin>` somewhere inside the `<plugins`> element.  
 * That is, the entire contents from `<plugin>` to `</plugin>` should be nested between the the `<plugin>` open tag, and the `</plugins>` close tag.
@@ -168,35 +176,9 @@ If it doesn't work, try these things before asking a mentor, TA, or instructor f
    * You can also see your logs in a web browser at: <https://dashboard.heroku.com/apps/app-name/logs> (note that you need to put your `app-name` in the URL instead of `app-name`.  
    * You can navigate to this from <https://dashboard.heroku.com/> by selecting your app, clicking on it,  selecting the `More` menu at upper right, and the selecting `Logs`.
 
-# Step 6: Changing what is shown on the page
-
-Go into the Java source code under `src` and locate the file   TBD
-
-In this file, locate the line of code that says:
-
-```java
-TBD
-```
 
 
-Then, change the line of code 
-```
-TBD
-```
-
-To read:
-
-```
-TBD
-```
-
-Then:
-* First, use `mvn compile` to make sure your code still compiles
-* Second, use `mvn spring-boot:run` to run the app on http://localhost:8080 and make sure the change took effect
-* Finally, deploy this code to Heroku in the same way you did with the other code.  Make sure both links now work.
-
-
-# Step 7: Submitting your work for grading
+# Step 8: Submitting your work for grading
 
 When you have a running web app, visit <{{page.gauchospace_url}}> and make a submission.
 
