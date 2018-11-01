@@ -96,7 +96,11 @@ If so, you are ready for the next step.
 
 # Step 5: Choose a web app and document your choice
 
-Now, choose one of the following proposed webapps, or choose one of your own.
+Now, choose one of the webapps described at that link below, or come up with your own idea for a webapp.
+   *  [Proposed Webapps from when the class rated ideas](/info/proposed_webapps)
+
+Then:
+   
 * In the README.md of your repo, make a note at the top of the file indicating which of these proposed webapps you chose.
 * Also add your name, and if working in a pair or trio, the names of all members of your group.
 * If you choose your own webapp, write a brief description of the app on the README.md of your repo.
