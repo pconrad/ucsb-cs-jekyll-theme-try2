@@ -10,4 +10,11 @@ layout: default
 * All public events hosted at UCSB organized in an easy to view format.
 * An app where you input class schedule or Google Calendar, and it will provide an alarm schedule for week that gives you best and most consistent sleep schedule.
 * A webapp where students can sell/give away textbooks, iclickers, notes, etc.
+* A University to do list: allows users to add things to do, with advanced features:
+   * memorize past to dos, urgency meter, expected accomplishment time, dependencies, 
+      recurring events, template events
+* An app for sharing tools in the IV/Goleta area, such as hammers, screwdrivers, and even lamps, surfboards, etc.
+* Webapp in which people can like a variety of things, outdoor activites, TV shows, etc. and recommends hobbies and activities based on your likes
+* A price tracker for specific items on a website you want.  Alerts when price drops
+
 
