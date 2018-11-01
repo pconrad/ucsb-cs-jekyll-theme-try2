@@ -2,7 +2,7 @@
 layout: lab
 num: lab06
 prev_num: lab03
-ready: false
+ready: true
 desc: "Getting Started with Spring Boot Webapps"
 assigned: 2018-11-01 17:00
 due: 2018-11-09 23:59
