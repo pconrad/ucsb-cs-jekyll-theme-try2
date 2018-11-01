@@ -98,7 +98,7 @@ If so, you are ready for the next step.
 # Step 5: Choose a web app and document your choice
 
 Now, choose one of the webapps described at that link below, or come up with your own idea for a webapp.
-   *  [Proposed Webapps from when the class rated ideas](/info/proposed_webapps)
+   *  [Proposed Webapps from when the class rated ideas](/info/proposed_webapps/)
 
 Then:
    
