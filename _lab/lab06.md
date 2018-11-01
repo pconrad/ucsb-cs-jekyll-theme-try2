@@ -44,7 +44,7 @@ You can skip this step if:
 * You are working on CSIL
 * You are working on your own machine, but you already did this step for {{page.prev_num}}.
 
-Otherwise, visit the page for [{{page.prev_num}}](/labs/{{page.prev_num}}) and follow the instructions under Step 0 to 
+Otherwise, visit the page for [{{page.prev_num}}](/labs/{{page.prev_num}}/) and follow the instructions under Step 0 to 
 * Install JDK for Java 8 on your machine
 * Install Maven on your machine
 * Install the Heroku CLI on your machine.
