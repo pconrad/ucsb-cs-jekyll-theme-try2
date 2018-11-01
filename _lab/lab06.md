@@ -32,9 +32,12 @@ Spring Boot is:
 We'll start by putting up a simple Hello World app, and then a little at a time, we'll add some features to that app, documenting as we go.
 
 
+# Step 0: Choose to work alone, in a pair, or in a trio
+
+You may work alone, in a pair, or in a trio (group of three), but if you work with others, please work with others that are IN THE SAME ROW, IN THE SAME SECTION, assigned to the same mentor as you.  
 
 
-# Step 0: If you are working on your own machine
+# Step 1: If you are working on your own machine
 
 You can skip this step if:
 * You are working on CSIL
@@ -45,9 +48,12 @@ Otherwise, visit the page for [{{page.prev_num}}](/labs/{{page.prev_num}}) and f
 * Install Maven on your machine
 * Install the Heroku CLI on your machine.
 
-# Step 1: Create a repo
+# Step 2: Create a repo
 
-Create an empty project repo under the {{site.org}} github organization.
+Create an empty project repo under the {{site.github_org_name}} github organization
+* Empty means: No `README.md`, no `.gitignore`, and no `LICENSE`
+
+Choose the name based on your githubid, or if working in a pair or trio, based on the combination of your github ids:
 
 | If working like this | Create a repo with this name|
 |----------------------|-----------------------------|
@@ -55,9 +61,44 @@ Create an empty project repo under the {{site.org}} github organization.
 | In a pair            | <tt>{{page.num}}-githubid1-githubid2</tt> (put `githubid1` and `githubid2` in alphabetical order |
 | In a group of three  | <tt>{{page.num}}-githubid1-githubid2-githubid3</tt> (put `githubid1`, `githubid2` and `githubid3` in alphabetical order |
 
+# Step 3: Add pair or trio partners as collaborators
+
+Whoever creates the repo should add the other pair/trio members as collaborators on Github.
+
+# Step 4: Clone repo and pull in starter code
+
+The starter code for this assignment is in <{{page.starter_repo}}>
+
+To add that as a remote:
 
 
-# Step 5: Login to Heroku 
+<p><tt>git remote add starter {{page.starter_repo}}</tt>
+	
+Then do:
+
+```
+git pull starter master
+git push origin master
+```
+
+Then try runnning the starter code with:
+
+```
+mvn spring-boot:run
+```
+
+It should bring up a running webapp on <http://localhost:8080>.
+
+If so, you are ready for the next step.
+
+
+
+# Step 5: Clone repo and pull in starter code
+
+
+
+
+# Step 6: Login to Heroku 
 
 If you didn't already create a Heroku account on the free plan, do so now.  There is additional information in the instructions for [{{page.prev_num}}](/labs/{{page.prev_num}}).
 
@@ -69,7 +110,7 @@ heroku login
 
 Additionally, open a web browser window and login to heroku at <https://dashboard.heroku.com>.
 
-# Step 6: Create a new Heroku App using the Heroku CLI
+# Step 7: Create a new Heroku App using the Heroku CLI
 
 Logged into CSIL (or one of the machines in the CSTL, i.e. Phelps 3525), use this command to login to Heroku at the command line:
 
@@ -87,7 +128,7 @@ Note: please do not literally put the letters <tt><i>githubid</i></tt> in your a
 <tt>heroku create cs56-{{site.qxx}}-<i>githubid</i>-{{page.num}}</tt>
 
 
-# Step 7: Modify the pom.xml file to refer to your heroku app
+# Step 8: Modify the pom.xml file to refer to your heroku app
 
 In the `pom.xml` file, find the `<plugins>` element.   Add the following `<plugin>` somewhere inside the `<plugins`> element.  
 * That is, the entire contents from `<plugin>` to `</plugin>` should be nested between the the `<plugin>` open tag, and the `</plugins>` close tag.
@@ -178,7 +219,7 @@ If it doesn't work, try these things before asking a mentor, TA, or instructor f
 
 
 
-# Step 8: Submitting your work for grading
+# Step 9: Submitting your work for grading
 
 When you have a running web app, visit <{{page.gauchospace_url}}> and make a submission.
 
