@@ -73,7 +73,7 @@ The starter code for this assignment is in <{{page.starter_repo}}>
 To add that as a remote:
 
 
-<p><tt>git remote add starter {{page.starter_repo}}</tt>
+<p><tt>git remote add starter {{page.starter_repo}}</tt></p>
 	
 Then do:
 
