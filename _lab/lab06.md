@@ -51,6 +51,7 @@ Otherwise, visit the page for [{{page.prev_num}}](/labs/{{page.prev_num}}) and f
 # Step 2: Create a repo
 
 Create an empty project repo under the {{site.github_org_name}} github organization
+
 * Empty means: No `README.md`, no `.gitignore`, and no `LICENSE`
 
 Choose the name based on your githubid, or if working in a pair or trio, based on the combination of your github ids:
@@ -109,6 +110,7 @@ Imagine what the navigation bar of that app looks like.
 * What is on the page that that page links to?
 
 Now modify the code:
+
 * Change the names of the links in `HelloController.java` to be the links you want to link to, instead of `/link1` and `/link2`
 * Change the names of the files in `/src/main/resources/templates/` from `page1.ftl` and `page2.ftl` to reasonable names.
 * On the pages, replace the text there with a brief description of what would happen on that page.  For example:
