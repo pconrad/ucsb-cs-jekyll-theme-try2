@@ -23,7 +23,7 @@ layout: default
 | 6pm |16|Price Tracker | A price tracker for specific items on a website you want.  Alerts when price drops |
 | 6pm | 16 | Recommend Feed for Life | Webapp in which people can like a variety of things, outdoor activites, TV shows, etc. and recommends hobbies and activities based on your likes|
 | 6pm | 15 | Book Sharing and Exchange | Users are able to sign up to the application and exchange books with people around the country so that people don't need to spend too much money on buying books |
-
+| 6pm | 15 | Private Search Engine Portal | A search engine that scrapes the top links off of the other top search engines so you're getting all the top links for the top search engines, and gives you a layer of privacy since it does it for you |
 
 ## 7pm section
 
