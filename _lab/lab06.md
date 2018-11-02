@@ -182,7 +182,7 @@ In the `pom.xml` file, find the `<plugins>` element.   Add the following `<plugi
           <processTypes>
             <!-- Tell Heroku how to launch your application -->
             <!-- You might have to remove the ./ in front   -->
-            <web>java $JAVA_OPTS -jar target/sparkjava-demo-01-1.0-jar-with-dependencies.jar</web>
+            <web>java $JAVA_OPTS -jar target/gs-spring-boot-0.1.0.jar --server.port=$PORT</web>
 
           </processTypes>
 	</configuration>
