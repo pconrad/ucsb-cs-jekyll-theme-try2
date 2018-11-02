@@ -14,6 +14,7 @@ layout: default
 | 5pm | 16 | Good Sleep Alarm App | An app where you input class schedule or Google Calendar, and it will provide an alarm schedule for week that gives you best and most consistent sleep schedule |
 | 5pm |15|Gardening Dashboard|Dashboard for all things gardening.  Input your home's weather, location, and soil conditions and get recommended planting/harvesting schedules and viable plant options.  Track when to plant, when to water, when to move out of sun, when to harvest etc. in calendar interface.  Browse feed of recipes, garden designs, and newest technologies |
 | 5pm |15|Community Building|A web-app to build community by forming bonds with your neighbors.  The webapp could include a share item feature the request/post items for neighbors to borrow.  Another feature could be planning events in this area such as BBQ or hiking trips|
+| 5pm | 15.5 | Volunteer, Service, Research Matcher/Tracker |An app that looks for volunteer/research opportunities across multiple platforms and combines the results in a single search page.  There should be filters (class schedule conflicts, distance, offered by UCSB or others) and a way to easily contact the event organizer.  Also the app could generate a service log based on previously finished activities. |
 
 
 ## 6pm section
