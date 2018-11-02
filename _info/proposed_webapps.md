@@ -34,8 +34,8 @@ layout: default
 | 7pm | 17 | Buy/Sell/Giveaway| A webapp where students can sell/give away textbooks, iclickers, notes, etc.|
 | 7pm | 16 | IV/Goleta Share Stuff | An app for sharing tools in the IV/Goleta area, such as hammers, screwdrivers, and even lamps, surfboards, etc.|
 | 7pm | 16 | A University to do list | Allows users to add things to do, with advanced features: memorize past to dos, urgency meter, expected accomplishment time, dependencies, recurring events, template events |
-
-
+| 7pm | 15 | Scrape Free/For Sale Sites | An application which would take a description of an item you want, and would then scrape multiple websites such as Craigslist and notify you when it found something.  |
+| 7pm | 15 | Watch with Friends | An app that allows you to watch Youtube, Spotify or Netflix with friends from different locations. For Youtube and Spotify, users from different locations in the same session can add videos/songs to a shared queue. There is also a chat so that users can share their reactions. |
 
 
 
