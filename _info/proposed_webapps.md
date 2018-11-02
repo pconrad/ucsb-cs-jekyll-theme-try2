@@ -36,6 +36,9 @@ layout: default
 | 7pm | 16 | A University to do list | Allows users to add things to do, with advanced features: memorize past to dos, urgency meter, expected accomplishment time, dependencies, recurring events, template events |
 | 7pm | 15 | Scrape Free/For Sale Sites | An application which would take a description of an item you want, and would then scrape multiple websites such as Craigslist and notify you when it found something.  |
 | 7pm | 15 | Watch with Friends | An app that allows you to watch Youtube, Spotify or Netflix with friends from different locations. For Youtube and Spotify, users from different locations in the same session can add videos/songs to a shared queue. There is also a chat so that users can share their reactions. |
+|7pm| 15.5 |  | |
+| 7pm | 15 | Grocery/Recipe Planner | An App that checks the area for groceries, finds specials on items, and helps create recipes based on items.  Should also have a budget limiter so recipes stay within reason of budget.  Should have specifications for recipes/items (e.g. time/allergies)|
+
 
 
 
