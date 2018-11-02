@@ -15,6 +15,7 @@ layout: default
 | 5pm |15|Gardening Dashboard|Dashboard for all things gardening.  Input your home's weather, location, and soil conditions and get recommended planting/harvesting schedules and viable plant options.  Track when to plant, when to water, when to move out of sun, when to harvest etc. in calendar interface.  Browse feed of recipes, garden designs, and newest technologies |
 | 5pm |15|Community Building|A web-app to build community by forming bonds with your neighbors.  The webapp could include a share item feature the request/post items for neighbors to borrow.  Another feature could be planning events in this area such as BBQ or hiking trips|
 
+
 ## 6pm section
 
 | Section | Score | Name | Description |
@@ -24,6 +25,7 @@ layout: default
 | 6pm | 16 | Recommend Feed for Life | Webapp in which people can like a variety of things, outdoor activites, TV shows, etc. and recommends hobbies and activities based on your likes|
 | 6pm | 15 | Book Sharing and Exchange | Users are able to sign up to the application and exchange books with people around the country so that people don't need to spend too much money on buying books |
 | 6pm | 15 | Private Search Engine Portal | A search engine that scrapes the top links off of the other top search engines so you're getting all the top links for the top search engines, and gives you a layer of privacy since it does it for you |
+| 6pm | 15 | Food Order Website | People can sell their food on the website, either lunch or dinner.  If other users find the food they like, the can contact the seller to order one.  And the seller will deliver the food to the user.  In the future, there probably will be a special delivery team. |
 
 ## 7pm section
 
