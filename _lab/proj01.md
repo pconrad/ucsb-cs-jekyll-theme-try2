@@ -37,4 +37,4 @@ You don't have to do this "perfectly" the first time.  You may need to first get
 
 <hr>
 
-Credits: Many thanks to John Cutler for his assistance in consulting on this project step.
+Credits: Many thanks to [John Cutler](https://twitter.com/johncutlefish?lang=en) for his assistance in consulting on this project step.
