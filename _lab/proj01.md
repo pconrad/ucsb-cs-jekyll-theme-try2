@@ -22,6 +22,13 @@ last_before: "Midterm Exam E02"
 * What is that goal, need or desire?
 * What is the series of events, in chronological order?
 
-Discuss this with your group, and on your paper, write down whatever 
+Discuss this with your group, and on your paper, write down whatever comes to mind.  
+
+NOTE: Try to keep your description VERY HIGH LEVEL, avoiding specific implementation details.
+
+* Good:  User selects a beverage from among several choices
+* Too much detail: User clicks on a drop down menu; each beverage has an image which  flashes with an animation as you hover over it, etc. etc. 
+
+You don't have to do this "perfectly" the first time.  You may need to first get it all out as "brain dump" that contains too much detail, and then move to a higher level.  But get to the higher level as soon as you can.
 
 3. 
