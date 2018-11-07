@@ -24,6 +24,12 @@ last_before: "Midterm Exam E02"
 
 Discuss this with your group, and on your paper, write down whatever comes to mind.  
 
+At this stage, there is not "right or wrong" way to get your ideas down on the paper.  Just write something
+that captures the group consensus, or the candidate proposals, for the "user journey".
+
+It can be a list, or pictures, or separate <tt>As a __ I can __ so that __ </tt> type stories, but don't get bogged down
+on what form it takes.  Just get something down.
+
 NOTE: Try to keep your description VERY HIGH LEVEL, avoiding specific implementation details.
 
 * Good:  User selects a beverage from among several choices
@@ -31,7 +37,23 @@ NOTE: Try to keep your description VERY HIGH LEVEL, avoiding specific implementa
 
 You don't have to do this "perfectly" the first time.  You may need to first get it all out as "brain dump" that contains too much detail, and then move to a higher level.  But get to the higher level as soon as you can.
 
-3. 
+Don't move on to the next step until you have the "spine" of your customer journey captured in some fashion.
+
+You'll know you have it, and you are ready for this step when:
+
+* It tells a coherent story.  You can describe this to any reasonable person 
+   (e.g. a UCSB student that isn't in this class, particularly one that might be a target user) 
+   and they will be able to follow what you are saying.
+* None of your "spine" should be "implementation" focused.    It shouldn't depend, for example, even on whether
+  it happens to be a webapp, or a mobile app, or even an app at all.    It shoudn't depend on technology specifics.
+
+* The <b>value exchange</b> part is clearly identified: the goal/need/desire of the user, and how that gets acheived/met/fulfilled
+
+3.  
+
+
+
+Now you have an outline, in some form (whatever form seemed reasonable to you)
 
 
 
