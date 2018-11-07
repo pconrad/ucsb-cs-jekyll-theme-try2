@@ -49,11 +49,26 @@ You'll know you have it, and you are ready for this step when:
 
 * The <b>value exchange</b> part is clearly identified: the goal/need/desire of the user, and how that gets acheived/met/fulfilled
 
-3.  
+3.  Now you have an outline, in some form (whatever form seemed reasonable to you)
+
+At this stage, the story you have might have gone in one of two directions:
+
+* **Grand Vision** (GV): You might have a story that really is very much your "ideal dream state" of the application when fully built out.   Keep in    mind that this may be far more than you can reasonably accomplish in the next 4 weeks.
+* **Minimum Viable Product** (MVP) You might have already been thinking in terms of "minimal viable product", and you might have a really nice thin slice of value for your end user, something you might *actually* be able to deliver in  4 weeks (or 1 week, or even 1 day.)
+   
+It's likely that each of our teams will be somewhere on the spectrum between these two extremes.  Discuss where you think
+your team is on that spectrum.
+   
+Assuming that your team is somewhere closer to GV than to MVP, you'll now want to set aside the description of your
+GV for the moment.  Use it as a reference to inform your efforts to redo the exercise, but focusing on an MVP.
+
+Maybe you can draw on top of your GV description, and circle the parts (in a different color) that you think might
+be part of your MVP.
 
 
 
-Now you have an outline, in some form (whatever form seemed reasonable to you)
+
+
 
 
 
