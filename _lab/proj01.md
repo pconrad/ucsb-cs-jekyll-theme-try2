@@ -32,3 +32,9 @@ NOTE: Try to keep your description VERY HIGH LEVEL, avoiding specific implementa
 You don't have to do this "perfectly" the first time.  You may need to first get it all out as "brain dump" that contains too much detail, and then move to a higher level.  But get to the higher level as soon as you can.
 
 3. 
+
+
+
+<hr>
+
+Credits: Many thanks to John Cutler for his assistance in consulting on this project step.
