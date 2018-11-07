@@ -65,9 +65,11 @@ GV for the moment.  Use it as a reference to inform your efforts to redo the exe
 Maybe you can draw on top of your GV description, and circle the parts (in a different color) that you think might
 be part of your MVP.
 
+The big question to keep in mind is:
 
+> How can we make "this" possible for the user with less complexity, less code, less time
 
-
+Here "this" is the goal/need/desire.
 
 
 
