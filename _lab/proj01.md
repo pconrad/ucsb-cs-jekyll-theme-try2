@@ -32,7 +32,13 @@ See the new seating chart here to know where to find your team.
 
 We will set up white board charts for each of you, along with flip chart markers, in four corners of the room.
 
-Please start by writing the name of your team, your mentor, and the names of the people on your team, (with a checkmark beside those that are present, and an X by those that are absent.)
+Please start by coming up with the **name for your project**.  It should be something that can be used as the name of a github repo, so let's keep the number of characters to fewer than 20, e.g. `"Gaucho GE Grabber"` is 18.   
+
+For example, if your project name is `Gaucho GE Grabber` your repo will end up being `ucsb-cs56-gaucho-ge-grabber`
+* Your project name can be mixed case and have spaces, e.g. `"Gaucho GE Grabber"` 
+* In repo names we are going with all lowercase, to keep things simple
+
+Write the name of your project, your mentor, and the names of the people on your team, (with a checkmark beside those that are present, and an X by those that are absent.)
 
 Example:
 
