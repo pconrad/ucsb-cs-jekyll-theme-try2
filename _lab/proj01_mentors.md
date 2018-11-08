@@ -8,6 +8,7 @@ due: 2018-11-07 19:50
 github_org: "ucsb-cs56-f18"
 last_before: "Midterm Exam E02"
 google_drive_folder_url: "https://drive.google.com/drive/folders/1AIPxe23CNuz8ik_AHCseSw-hn-WV2IK6?usp=sharing"
+seating_chart_url: "https://docs.google.com/spreadsheets/d/1IwxSfwdo0p38mooCNZpVPc2uzCRmowsLhqF8pEkaV3I/edit?usp=sharing"
 google_drive_folder_name: CS56-F18-Shared
 ---
 
@@ -20,10 +21,15 @@ You will need:
 * To have edit access in the following Google Drive folder 
    * [{{google_drive_folder_name}}]({{google_drive_folder_url}}).  
    * This folder should be accessible only to Instructors, TAs, and tutors/mentors for {{site.course}}, {{site.qxx}}
-* To be an owner in the following github organizations: 
-   * [ucsb-cs56-f18](https://github.org/ucsb-cs56-f18)
+* Once you have access to that folder, you should be able to edit this spreadsheet as/when needed:
+   * [CS56 F18 Lab Seating Chart](https://docs.google.com/spreadsheets/d/1IwxSfwdo0p38mooCNZpVPc2uzCRmowsLhqF8pEkaV3I/edit?usp=sharing)
+   * By convention, certain pages of that spreadsheet are published as the seating charts on the [{{github_org}}.github.io](https://{{github_org}}.github.io) website.
+* To be an owner in the following github organizations:
    * [ucsb-cs56-webapps](https://github.org/ucsb-cs56-webapps)
-   
+       * This gives you the ability to create the official repos for the webapp projects.  Students will have read only access to these.
+   * [ucsb-cs56-f18](https://github.org/ucsb-cs56-f18)
+        * This gives you the ability to work with the students in the repo they fork to do their work, and to work with their Kanban boards, issues, etc.
+        
 # Step 2: Choose which team you will mentor
 
 Consult the lab seating chart pages for your lab section:
@@ -44,7 +50,11 @@ If it is available, we might also use Phelps 3526 for one or more of the teams.
 
 # Step 4: Create a repo under [ucsb-cs56-webapps](https://github.com/ucsb-cs56-webapps) for your team
 
-Create a repo called `ucsb-cs56-project-name` where `project-name` is the name your team chooses for its project.
+Under the [ucsb-cs56-webapps](https://github.com/ucsb-cs56-webapps)  organization, create a repo called `ucsb-cs56-project-name` where `project-name` is the name your team chooses for its project.
+
+If you are unable to do so because you are not an owner, consult someone that is already an owner (e.g. a TA, instructor, or even a fellow mentor).
+
+
 
 
 
