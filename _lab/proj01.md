@@ -135,7 +135,7 @@ Now, we are at the part that is most important to the future success of your pro
 
 Your mentor will have set up a github repo for your project under the organization [ucsb-cs56-webapps](https://github.com/ucsb-cs56-webapps]. 
 
-(If you can't find that repo,  ask your mentor for help.  If that repo doesn't exist yet, you mentor should look at the [{{page.num}}\_mentor](/lab/{{page.num}}_mentor) page for instructions on what they should do to set it up.)
+(If you can't find that repo,  ask your mentor for help.  If that repo doesn't exist yet, you mentor should look at the [{{page.num}}\_mentors](/lab/{{page.num}}_mentors/) page for instructions on what they should do to set it up.)
 
 This repo is *read only* for you.  So you'll need to fork it, which is the next step.
 
