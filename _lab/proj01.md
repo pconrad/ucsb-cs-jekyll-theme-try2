@@ -16,6 +16,10 @@ Before you come to lab, please watch at least the first two of these videos.  If
 * Part 2 (10:15) (Using a Github Project Kanban Board): <https://youtu.be/8U0FezxxMGU>
 * Part 3 (16:28) (More User Stories and Issues): <https://youtu.be/lIB0WJzgSs8>
 
+If you want to reference the slides from the videos, they are here: 
+* [From User Story Mapping to Kanban in Github](https://docs.google.com/presentation/d/1UD5qIm5njZFF2s8OvCJdJPnsR_VvnavcZRP9cXRqRNw/edit?usp=sharing), a presentation by Phill Conrad and John Cutler
+
+
 # Creating Your Story Map
 
 ## Step 1:  Gather in your team; see the new seating chart here: 
