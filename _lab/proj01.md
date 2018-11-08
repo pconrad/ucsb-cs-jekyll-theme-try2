@@ -9,9 +9,12 @@ github_org: "ucsb-cs56-f18"
 ---
 
 
-<table>
+<table style="margin-top:1em;">
 <tr>
-   <th>Points</th><td class="pointCount"></td>
+   <th>Points</th>
+</tr>
+<tr>
+   <td class="pointCount"></td>
 </tr>
 </table>
 
