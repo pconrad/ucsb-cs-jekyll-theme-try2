@@ -121,6 +121,29 @@ If you have not done this before
    * Sit with them and do the initial estimates hand-in-hand with them
    * This does NOT have to happen during your 50 minute lab section tonight, but it should happen as soon as possible so that the students can get started on planning their work for the rest of the quarter.
    
+### Step 7e: "Assignment of Issues"
+
+Try to help guide the student through the assignment of issues.  Let them know that they need to decide how whether to divide up the work into pairs, groups, trios, etc.
+
+Sometimes issues have dependencies on one another, so you can't work on issue A until issue B is finished.
+
+This is where they may also need some guidance in coming up with some Skunkworks issues (the folks who were in Summer 2018 will know what that means) that will help them do more "in parallel".  If you aren't familiar with the Skunkworks idea, ask Sasha, Rachel, Wilson, Zihao, Santha or Prof. Conrad for more info on that.  (If there is time, I'll write something up on the course website about it.)
+
+# What comes next?
+
+I'll have some tasks over the next week for each of the mentors to provide the students with feedback on how they did with their work on proj01.  
+
+This will help get us set up for the way in which we evaluate work for the webapp projects.  
+
+This will include:
+* Setting up one private <tt>FEEDBACK_<i>team_name</i></tt> repos under the <tt>{{page.github_org}}</tt>; these are private repos where we give each of the team members read only access.   
+   * Mentors put "feedback" (not grades) into these repos.
+   * TAs/Instructors add grades
+* Setting up four to six individual private <tt>FEEDBACK_<i>githubid</i></tt> repos under the <tt>{{page.github_org}}</tt> for your individual team members.   This is where we will record whether or not the individual team members met each of the criteria for earning points for `proj01`  
+   * Note: it would be super nice to have a webapp that would set those `FEEDBACK_*` repos automatically, eh?
+   * It is totally possible.  It's a simple matter of programming. I'm happy to walk someone through it.
+* After the due date for proj01, checking those criteria for each of your six team members and recording the information.
+
 
 
 
