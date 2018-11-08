@@ -2,7 +2,7 @@
 layout: lab
 num: proj01_mentors
 student_num: proj01
-ready: false
+ready: true
 desc: "Mentor Duties for proj01"
 assigned: 2018-11-07 17:00
 due: 2018-11-07 19:50
