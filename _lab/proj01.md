@@ -8,6 +8,9 @@ due: 2018-11-12 23:59
 github_org: "ucsb-cs56-f18"
 ---
 
+# Grade for this assignment
+
+This assignment counts towards your project grade, not your lab grade.  You may earn up to 100 points.  If you earn fewer (e.g. because you missed lab on {{page.assigned | date: "%a, %b %d" }}, you'll have the oppoortunity to earn more points in later phases of the project to make up for it.
 
 <table style="margin-top:1em;">
 <tr>
