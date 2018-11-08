@@ -11,7 +11,7 @@ google_drive_folder_url: "https://drive.google.com/drive/folders/1AIPxe23CNuz8ik
 google_drive_folder_name: CS56-F18-Shared
 ---
 
-This page describe what mentors need to do to support their teams to work on proj01.
+This page describe what mentors need to do to support their teams to work on [proj01](/lab/proj01/).
 
 # Step 1: Make sure you have the access you need
 
