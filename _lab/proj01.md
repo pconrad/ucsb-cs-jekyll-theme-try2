@@ -138,6 +138,7 @@ IF IT IS HELPFUL, you *could* use the form shown in the video, and illustrated i
 <a href="/lab/proj01/story_map_example.png" data-ajax="false">
 <img src="/lab/proj01/story_map_example_30pct.png" alt="Story Map Example">
 </a>
+**(Click the image above for a more legible version)**
 
 BUT: at this stage, it is more important to get the ideas flowing.  There is no specific "right or wrong" way to get your ideas down on the paper.  Just write something
 that captures the group consensus, or the candidate proposals, for the "user journey".
