@@ -6,16 +6,41 @@ desc: "Starting your project: Story Map"
 assigned: 2018-11-07 17:00
 due: 2018-11-12 23:59
 github_org: "ucsb-cs56-f18"
-last_before: "Midterm Exam E02"
 ---
+
+# Preparation
+
+Before you come to lab, please watch at least the first two of these videos.  If possible, watch all three, but at least the first two:
+
+* Part 1 (12:12) (Planning): <https://youtu.be/IsuIZaqnIuU>
+* Part 2 (10:15) (Using a Github Project Kanban Board): <https://youtu.be/8U0FezxxMGU>
+* Part 3 (16:28) (More User Stories and Issues): <https://youtu.be/lIB0WJzgSs8>
 
 # Creating Your Story Map
 
-1.  Gather in your team; see the new seating chart here: 
+## Step 1:  Gather in your team; see the new seating chart here: 
 
 * <https://ucsb-cs56-f18.github.io/info/lab_seating_chart_5pm/>
 * <https://ucsb-cs56-f18.github.io/info/lab_seating_chart_6pm/>
 * <https://ucsb-cs56-f18.github.io/info/lab_seating_chart_7pm/>
+
+We will set up white board charts for each of you, along with flip chart markers, in four corners of the room.
+
+Please start by writing the name of your team, your mentor, and the names of the people on your team, (with a checkmark beside those that are present, and an X by those that are absent.)
+
+Example:
+
+<div style="width: 30em; height: 20em; border: 4px solid #ccc; padding: 1em;" markdown="1" >
+
+# Project: Gaucho GE Grabber
+
+Mentor: Julia Roberts
+
+Team: Phill Conrad ✓, Jinjin Shao ✓, Santha Ramamoorthy ✓, Henry Yang ✗, Oprah Winfrey ✗ 
+
+</div>
+
+## Step 2: Discuss the User Journey
 
 2. Think about the "user journey", that is, all of the events that lead someone  to turn to your webapp and have an interaction with it, or perhaps a series of interactions. There should be a beginning, a middle and an end, where value is exchanged: the user came with a goal, need, or desire, and that goal was met, that need was satisfied, or that desire was fulfilled. 
 
