@@ -8,13 +8,9 @@ assigned: 2018-11-01 17:00
 due: 2018-11-09 23:59
 github_org: "ucsb-cs56-f18"
 starter_repo: "https://github.com/ucsb-cs56-f18/STARTER_lab06"
-last_before: "Midterm Exam E02"
 gauchospace_url: "https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=1639566"
 ---
 
-Coming soon
-
-<hr>
 
 Previously, in {{page.prev_num}}, you worked with a small Hello, World app based on a web technology known as SparkJava.
 
