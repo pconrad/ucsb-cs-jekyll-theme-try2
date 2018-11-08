@@ -22,13 +22,22 @@ If you want to reference the slides from the videos, they are here:
 
 # Creating Your Story Map
 
-## Step 1 (Graded):  Gather in your team, and start a flip chart
 
-See the new seating chart here to know where to find your team.
+## Step 0:  Gather in your team, and start a flip chart
+
+See the new seating chart here to know where to find your team.   
 
 * <https://ucsb-cs56-f18.github.io/info/lab_seating_chart_5pm/>
 * <https://ucsb-cs56-f18.github.io/info/lab_seating_chart_6pm/>
 * <https://ucsb-cs56-f18.github.io/info/lab_seating_chart_7pm/>
+
+We will set up white board charts for each of you, along with flip chart markers, in four corners of the room; find your corner.
+
+* Locate and identify your new mentor as well
+* Also identify the TA (Jinjin or Santha) that will be working with your team.
+* Finally, introduce yourselves to each other.
+
+## Step 1 (20 pts):  Start documenting your team's work on a flip chart
 
 We will set up white board charts for each of you, along with flip chart markers, in four corners of the room.
 
@@ -54,7 +63,33 @@ Team: Phill Conrad ✓, Jinjin Shao ✓, Santha Ramamoorthy ✓, Henry Yang ✗,
 
 Being present for today's lab, and making sure your name is on the flip chart with a ✓ is 20% of your grade for today's work.
 
-## Step 2: Discuss the User Journey
+## Step 2 (10 pts): Create a communications channel
+
+Create a communication channel for your team.  Your team (including both the CS56 students, and your mentor) must come to a consensus on what this communication channel will be:
+
+This could be any of the following:
+* A Slack channel
+* A Gauchospace message board (your mentor, TA or instructor can create this for you)
+* A Facebook group chat
+* A Google Hangout
+* Wechat, Groupme, or something else
+
+Don't let this discussion go on for more than five minutes.   
+* As a fall back: if you are unable to reach consensus within 5 minutes of the , the "default" will be a private Gauchospace discussion board that is set up for your team (the students, the team mentor, and the instructor).    
+* There is nothing stopping you from moving, later, to a different system if you can reach consensus then.
+* But to be honest, there are better tools than a Gauchospace discussion board.  That is only provided as an option so that you don't spent the entire lab arguing about the merits of Slack vs. WeChat.
+
+Whatever method you choose to use, please document this by:
+* Communicating it with your mentor
+* Adding your mentor into the communications channel
+
+At this stage, you do not need to add the TA or instructor into your team's communications channel.  We might do that at a later stage, but at this stage, the plan is that if you need to communicate with the TA or instructor, you can do so through Piazza, or through your mentor (your mentor is on a separate "instructional staff" Slack channel that already exists.)
+
+For Credit: Document the choice of communications channel on your flip chart.
+
+## Step 3: Discuss the User Journey
+
+(This step is not graded, per se, but you can't meaningfully accomplish the later stages if you try to skip it.)
 
 As a team, discuss the "user journey" for your proposed application. 
 
@@ -100,7 +135,9 @@ You'll know you have it, and you are ready for this step when:
 
 * The <b>value exchange</b> part is clearly identified: the goal/need/desire of the user, and how that gets acheived/met/fulfilled
 
-## Step 3: Move towards minimum viable product
+## Step 4: Move towards minimum viable product
+
+(This step is not graded, per se, but you can't meaningfully accomplish the later stages if you try to skip it.)
 
 Now you have an outline, in some form (whatever form seemed reasonable to you)
 
@@ -127,6 +164,8 @@ Here "this" is the goal/need/desire.
 
 ## Step 4: (Optional) Make a new chart in the form shown in part 1 of the video
 
+(This step is not graded, and you might be able to skip it.  Read through the information below and decide if completing this step would be helpful.  Once you've read through it, you can always decide to skip it for now, and come back if you find that you are stuck.)
+
 At this stage, you need to make a decision.  
 * Are you ready to go straight to user stories and tasks, as shown in part 2 of the video?
 * Or, would it help to first make a new user story map, in the format shown in part one of the video (and illustrated in the picture?)
@@ -145,7 +184,7 @@ Your mentor will have set up a github repo for your project under the organizati
 
 This repo is *read only* for you.  So you'll need to fork it, which is the next step.
 
-### Step 5b: Fork the repo into the [{{page.github_org}}](https://github.com/{{page.github_org}})  organization
+### Step 5b (5 pts): Fork the repo into the [{{page.github_org}}](https://github.com/{{page.github_org}})  organization
 
 You will do your work in a *fork* of this repo.  Take these steps:
 1. One member of your team should fork the repo to the [{{page.github_org}}](https://github.com/{{page.github_org}}) organization.
@@ -154,7 +193,7 @@ You will do your work in a *fork* of this repo.  Take these steps:
 3. In the README for that fork of the repo, add a section with the heading `# Fall 2018` and under that heading, put down the first names (only) and the github ids for the members of your team.  Also write 1-2 sentences describing the main idea of your webapp (this is NOT a long detailed description; just the highest level description possible.)
 
 
-### Step 5c: Make a Kanban board, as illustrated in the [video (Part 2)](https://www.youtube.com/watch?v=8U0FezxxMGU)
+### Step 5c  (5 pts): Make a Kanban board, as illustrated in the [video (Part 2)](https://www.youtube.com/watch?v=8U0FezxxMGU)
 
 Now, go into your forked repo, and go to Projects, and create a project.
 
@@ -175,7 +214,7 @@ At least one of them should be similar to this one from the video, i.e. a Spring
 <img src="/lab/proj01/first_issue_30pct.png" alt="First Issue">
 </a>
 
-### Step 5d: Have your mentor review your Kanban board and approve issues
+### Step 5d  (40 pts): Have your mentor review your Kanban board and approve issues
 
 Ask your mentor to look over your Kanban board and make a comment on each of your user stories and issues.
 
@@ -189,18 +228,7 @@ If your mentor has questions/concerns, they'll make those in the comments.  You 
 
 Each member of your team that is present tonight should be assigned to at least one issue.  You can assign multiple developers to a single issue; this is how you form pairs, trios, and mobs of 4 or more.
 
-## Step 6: Create a communications channel
 
-Create a communication channel for your team.
-
-This could be any of the following:
-* A Slack channel
-* A Gauchospace message board (your mentor, TA or instructor can create this for you)
-* A Facebook group chat
-* A Google Hangout
-* Wechat, Groupme, or something else
-
-Whatever
 
 # What Comes Next?
 
