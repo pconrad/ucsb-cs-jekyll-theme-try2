@@ -14,7 +14,11 @@ google_drive_folder_name: CS56-F18-Shared
 
 This page describe what mentors need to do to support their teams to work on [proj01](/lab/proj01/).
 
-# Step 1: Make sure you have the access you need
+The step numbers below correspond to the steps in the student facing lab instuctions.
+
+They have no Step 0, so those are steps that, ideally, you'll do before the lab starts. (Sorry for short notice.)
+
+# Step 0a: Make sure you have the access you need
 
 You will need:
 
@@ -30,7 +34,7 @@ You will need:
    * [ucsb-cs56-f18](https://github.org/ucsb-cs56-f18)
         * This gives you the ability to work with the students in the repo they fork to do their work, and to work with their Kanban boards, issues, etc.
         
-# Step 2: Choose which team you will mentor
+# Step 0b: Choose which team you will mentor
 
 Consult the lab seating chart pages for your lab section:
 
@@ -42,7 +46,7 @@ Let one of the TAs or instructors know which team you want to mentor, and have t
 
 Or better yet, access the editable version in the Google Drive folder [{{google_drive_folder_name}}({{google_drive_folder_url}}), and add your name directly to the team of your choice.
 
-# Step 3: Locate the corner of the room where that team is meeting
+# Step 0c: Locate the corner of the room where that team is meeting
 
 There should be a flip chart there for them to work from, along with flip chart markers.
 
