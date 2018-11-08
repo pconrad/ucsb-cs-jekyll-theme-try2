@@ -18,7 +18,7 @@ This page describe what mentors need to do to support their teams to work on [pr
 You will need:
 
 * To have edit access in the following Google Drive folder 
-   * [{{google_drive_folder_name}}({{google_drive_folder_url}}).  
+   * [{{google_drive_folder_name}}]({{google_drive_folder_url}}).  
    * This folder should be accessible only to Instructors, TAs, and tutors/mentors for {{site.course}}, {{site.qxx}}
 * To be an owner in the following github organizations: 
    * [ucsb-cs56-f18](https://github.org/ucsb-cs56-f18)
