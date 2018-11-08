@@ -77,8 +77,8 @@ Team: Phill Conrad ✓, Jinjin Shao ✓, Santha Ramamoorthy ✓, Henry Yang ✗,
 Being present for today's lab, and making sure your name is on the flip chart with a ✓ is 20% of your grade for today's work.
 
 You earn these points if/only if:
-* you were personally present in lab on {{page.assigned | | date: "%a, %b %d"}} and 
-* your team produces a flip chart in the requested format during lab on {{page.assigned | | date: "%a, %b %d"}}.
+* you were personally present in lab on {{page.assigned | date: "%a, %b %d"}} and 
+* your team produces a flip chart in the requested format during lab on {{page.assigned |  date: "%a, %b %d"}}.
 
 
 ## Step 2 (10 pts): Create a communications channel
@@ -106,10 +106,10 @@ At this stage, you do not need to add the TA or instructor into your team's comm
 For Credit: Document the choice of communications channel on your flip chart.
 
 You earn these points if/only if:
-* your team's flip chart identifies a communications channel in lab on {{page.assigned | | date: "%a, %b %d"}} 
+* your team's flip chart identifies a communications channel in lab on {{page.assigned | date: "%a, %b %d"}} 
 * your mentor documents that they were able to reach you, personally, over that channel on or before the due date/time for this lab, i.e. 
 
-These points do not require being physically present in lab on {{page.assigned | | date: "%a, %b %d"}}; you can earn them even if you were not there, as long as you get added to the communications channel.  
+These points do not require being physically present in lab on {{page.assigned |  date: "%a, %b %d"}}; you can earn them even if you were not there, as long as you get added to the communications channel.  
 Getting yourself added is your responsiblity. Ways you can try:
 * You can reach out to your mentor via a private "Instructor Note" on Piazza, and they can put you in touch with fellow team members.
 * You can reach out to fellow team members via a public post on Piazza.
@@ -222,7 +222,7 @@ You will do your work in a *fork* of this repo.  Take these steps:
 
 You earn these points if/when you, as an individual, were:
 * present in lab 
-* your assigned to one or more issues by the deadline for this lab ({{page.due | | date: "%a, %b %d at %l:%M%p}})
+* your assigned to one or more issues by the deadline for this lab ({{page.due |  date: "%a, %b %d at %l:%M%p"}})
 
 ### Step 5c  (5 pts): Make a Kanban board, as illustrated in the [video (Part 2)](https://www.youtube.com/watch?v=8U0FezxxMGU)
 
@@ -256,14 +256,14 @@ If the issue is clear to them, and has their blessing, they should make a commen
 If your mentor has questions/concerns, they'll make those in the comments.  You should iterate with them until all of the user stories and issues are "Mentor Approved".   
 
 You earn these points when and if
-* you were personally present in lab on {{page.assigned | | date: "%a, %b %d"}} and 
+* you were personally present in lab on {{page.assigned |  date: "%a, %b %d"}} and 
 * your mentor has approved a set of issues for your team to work on, and you are assigned to at least one of them.
 
 ### Step 5e (20 pts):  Make initial assignment of issues
 
 Each member of your team that is present tonight should be assigned to at least one issue.  You can assign multiple developers to a single issue; this is how you form pairs, trios, and mobs of 4 or more.
 
-You earn these points if/when you, as an individual, are assigned to one or more issues by the deadline for this lab ({{page.due | | date: "%a, %b %d at %l:%M%p}})
+You earn these points if/when you, as an individual, are assigned to one or more issues by the deadline for this lab ({{page.due |  date: "%a, %b %d at %l:%M%p"}})
 
 
 # What Comes Next?
