@@ -62,7 +62,7 @@ Discuss this with your group, and on your paper, write down whatever comes to mi
 
 IF IT IS HELPFUL, you *could* use the form shown in the video, and illustrated in class, where you have a series of stories that form column headings across the top of the page, and then you have descriptions of specific user interactions as sticky notes in the columns, as illustrated here:
 
-INSERT IMAGE
+![Story Map Example](story_map_example.png)
 
 BUT: at this stage, it is more important to get the ideas flowing.  There is no specific "right or wrong" way to get your ideas down on the paper.  Just write something
 that captures the group consensus, or the candidate proposals, for the "user journey".
