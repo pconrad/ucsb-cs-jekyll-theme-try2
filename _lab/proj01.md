@@ -64,7 +64,7 @@ We will set up white board charts for each of you, along with flip chart markers
 * Also identify the TA (Jinjin or Santha) that will be working with your team.
 * Finally, introduce yourselves to each other.
 
-## Step 1 (20 pts):  Start documenting your team's work on a flip chart
+## Step 1:  Start documenting your team's work on a flip chart
 
 We will set up white board charts for each of you, along with flip chart markers, in four corners of the room.
 
@@ -92,13 +92,13 @@ Being present for today's lab, and making sure your name is on the flip chart wi
 
 <div class="grade" markdown="1">
 
-You earn these points if/only if:
+**Graded**: (20 pts) You earn these points if/only if:
 * you were personally present in lab on {{page.assigned | date: "%a, %b %d"}} and 
 * your team produces a flip chart in the requested format during lab on {{page.assigned |  date: "%a, %b %d"}}.
 
 </div>
 
-## Step 2 (10 pts): Create a communications channel
+## Step 2: Create a communications channel
 
 Create a communication channel for your team.  Your team (including both the CS56 students, and your mentor) must come to a consensus on what this communication channel will be:
 
@@ -123,7 +123,7 @@ At this stage, you do not need to add the TA or instructor into your team's comm
 
 <div class="grade" markdown="1">
 
-For Credit: Document the choice of communications channel on your flip chart.
+**Graded**: (10 pts): Document the choice of communications channel on your flip chart.
 
 You earn these points if/only if:
 * your team's flip chart identifies a communications channel in lab on {{page.assigned | date: "%a, %b %d"}} 
@@ -236,7 +236,7 @@ Your mentor will have set up a github repo for your project under the organizati
 
 This repo is *read only* for you.  So you'll need to fork it, which is the next step.
 
-### Step 5b (5 pts): Fork the repo into the [{{page.github_org}}](https://github.com/{{page.github_org}})  organization
+### Step 5b: Fork the repo into the [{{page.github_org}}](https://github.com/{{page.github_org}})  organization
 
 You will do your work in a *fork* of this repo.  Take these steps:
 1. One member of your team should fork the repo to the [{{page.github_org}}](https://github.com/{{page.github_org}}) organization.
@@ -246,14 +246,14 @@ You will do your work in a *fork* of this repo.  Take these steps:
 
 <div class="grade" markdown="1">
 
-You earn these points if/when you, as an individual, were:
+**Graded**: (5 pts) You earn these points if/when you, as an individual, were:
 * present in lab on ({{page.assigned |  date: "%a, %b %d "}}, and 
 * your team has forked the repo into the [{{page.github_org}}](https://github.com/{{page.github_org}})  organization
 * you are a collaborator on that repo by the due date of the lab, ({{page.due |  date: "%a, %b %d at %l:%M%p"}})
 
 </div>
 
-### Step 5c  (5 pts): Make a Kanban board, as illustrated in the [video (Part 2)](https://www.youtube.com/watch?v=8U0FezxxMGU)
+### Step 5c: Make a Kanban board, as illustrated in the [video (Part 2)](https://www.youtube.com/watch?v=8U0FezxxMGU)
 
 Now, go into your forked repo, and go to Projects, and create a project.
 
@@ -278,13 +278,13 @@ At least one of them should be similar to this one from the video, i.e. a Spring
 
 <div class="grade" markdown="1">
 
-You earn these points if/when you:
+**Graded**: (5 pts) You earn these points if/when you:
 * met the criteria for the previous item (present in lab, team forked repo, you are a collaborator), AND
 * your team has created a Kanban board by the due date of the lab, ({{page.due |  date: "%a, %b %d at %l:%M%p"}})
 
 </div>
 
-### Step 5d  (40 pts): Have your mentor review your Kanban board and approve issues
+### Step 5d: Have your mentor review your Kanban board and approve issues
 
 Ask your mentor to look over your Kanban board and make a comment on each of your user stories and issues.
 
@@ -296,13 +296,13 @@ If your mentor has questions/concerns, they'll make those in the comments.  You 
 
 <div class="grade" markdown="1">
 
-You earn these points when and if
+**Graded**: (40 pts) You earn these points when and if
 * you were personally present in lab on {{page.assigned |  date: "%a, %b %d"}} for the discussion of issues, and
 * your mentor has approved a set of issues for your team to work on, and you are assigned to at least one of them by the due date for this lab, ({{page.due |  date: "%a, %b %d at %l:%M%p"}}).
 
 </div>
 
-### Step 5e (20 pts):  Make initial assignment of issues
+### Step 5e:  Make initial assignment of issues
 
 Each member of your team that is present tonight should be assigned to at least one issue.  You can assign multiple developers to a single issue; this is how you form pairs, trios, and mobs of 4 or more.
 
@@ -312,7 +312,7 @@ Members that are not present should take responsibility for ensuring that they
 
 <div class="grade" markdown="1">
 
-You earn these points if/when you, as an individual, are assigned to one or more issues by the deadline for this lab ({{page.due |  date: "%a, %b %d at %l:%M%p"}}).
+**Graded**: (20 pts) You earn these points if/when you, as an individual, are assigned to one or more issues by the deadline for this lab ({{page.due |  date: "%a, %b %d at %l:%M%p"}}).
 
 (These points do not require being physically present in lab on ({{page.assigned |  date: "%a, %b %d "}}.)
 
