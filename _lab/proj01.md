@@ -154,7 +154,23 @@ You will do your work in a *fork* of this repo.  Take these steps:
 3. In the README for that fork of the repo, add a section with the heading `# Fall 2018` and under that heading, put down the first names (only) and the github ids for the members of your team.  Also write 1-2 sentences describing the main idea of your webapp (this is NOT a long detailed description; just the highest level description possible.)
 
 
-   
+### Step 5c: Make a Kanban board, as illustrated in the [video (Part 2)](https://www.youtube.com/watch?v=8U0FezxxMGU)
+
+Now, go into your forked repo, and go to Projects, and create a project.
+
+* Name it the same as your project plus {{site.qxx}}
+* Create a Basic Kanban board (Todo, In Progress, Done)
+* Delete the three "starter cards" as shown in the video using "Delete Note"
+
+
+Now, take your story map, and turn it into:
+* User stories, in the form `As a _ I can _ so that _`, which become "Note" cards. 
+* Issues (tasks) which you put under each of those User Stories
+
+You should end up with at least 3 issues that your team could start working on.
+
+At least one of them should be similar to this one from the video:
+
 
 
 <hr>
