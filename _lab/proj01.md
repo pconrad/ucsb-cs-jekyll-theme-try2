@@ -8,6 +8,13 @@ due: 2018-11-12 23:59
 github_org: "ucsb-cs56-f18"
 ---
 
+
+<table>
+<tr>
+   <th>Points</th><td class="pointCount"></td>
+</tr>
+</table>
+
 # Preparation
 
 Before you come to lab, please watch at least the first two of these videos.  If possible, watch all three, but at least the first two:
