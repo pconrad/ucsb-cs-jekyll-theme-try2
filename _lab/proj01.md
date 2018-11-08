@@ -21,6 +21,10 @@ This assignment counts towards your project grade, not your lab grade.  You may 
 </tr>
 </table>
 
+<style>
+div.grade { margin: 2em; padding: 1em; border: 2px solid #0c0; background-color: #efe; }   
+</style>
+
 # Preparation
 
 Before you come to lab, please watch at least the first two of these videos.  If possible, watch all three, but at least the first two:
@@ -76,10 +80,13 @@ Team: Phill Conrad ✓, Jinjin Shao ✓, Santha Ramamoorthy ✓, Henry Yang ✗,
 
 Being present for today's lab, and making sure your name is on the flip chart with a ✓ is 20% of your grade for today's work.
 
+<div class="grade" markdown="1">
+
 You earn these points if/only if:
 * you were personally present in lab on {{page.assigned | date: "%a, %b %d"}} and 
 * your team produces a flip chart in the requested format during lab on {{page.assigned |  date: "%a, %b %d"}}.
 
+</div>
 
 ## Step 2 (10 pts): Create a communications channel
 
@@ -109,10 +116,17 @@ You earn these points if/only if:
 * your team's flip chart identifies a communications channel in lab on {{page.assigned | date: "%a, %b %d"}} 
 * your mentor documents that they were able to reach you, personally, over that channel on or before the due date/time for this lab, i.e. 
 
+
+
+<div class="grade" markdown="1">
+
 These points do not require being physically present in lab on {{page.assigned |  date: "%a, %b %d"}}; you can earn them even if you were not there, as long as you get added to the communications channel.  
 Getting yourself added is your responsiblity. Ways you can try:
 * You can reach out to your mentor via a private "Instructor Note" on Piazza, and they can put you in touch with fellow team members.
 * You can reach out to fellow team members via a public post on Piazza.
+
+</div>
+
 
 
 ## Step 3: Discuss the User Journey
