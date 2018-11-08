@@ -169,9 +169,47 @@ Now, take your story map, and turn it into:
 
 You should end up with at least 3 issues that your team could start working on.
 
-At least one of them should be similar to this one from the video:
+At least one of them should be similar to this one from the video, i.e. a Spring Boot Boostrap Navigation template starter app similar to the one from [{{page.spring_boot_lab_num}}](/lab/{{page.spring_boot_lab_num}}/) where you put together a basic User Interface using Bootstrap with some basic menus and placeholders that support the user interaction you anticipate in your app:
 
+<a href="/lab/proj01/first_issue.png" data-ajax="false">
+<img src="/lab/proj01/first_issue_30pct.png" alt="First Issue">
+</a>
 
+### Step 5d: Have your mentor review your Kanban board and approve issues
+
+Ask your mentor to look over your Kanban board and make a comment on each of your user stories and issues.
+
+If the issue is clear to them, and has their blessing, they should make a comment that includes the words:
+
+"Mentor Approved"
+
+If your mentor has questions/concerns, they'll make those in the comments.  You should iterate with them until all of the user stories and issues are "Mentor Approved".   
+
+### Step 5e:  Make initial assignment of issues
+
+Each member of your team that is present tonight should be assigned to at least one issue.  You can assign multiple developers to a single issue; this is how you form pairs, trios, and mobs of 4 or more.
+
+## Step 6: Create a communications channel
+
+Create a communication channel for your team.
+
+This could be any of the following:
+* A Slack channel
+* A Gauchospace message board (your mentor, TA or instructor can create this for you)
+* A Facebook group chat
+* A Google Hangout
+* Wechat, Groupme, or something else
+
+Whatever
+
+# What Comes Next?
+
+Next, your mentor will estimate issues and assign point values.  These will typically be:
+* 100 points for relatively straightforward issues where there is a clear road map to follow
+* 200 points for somewhat more involved issues where, say, the instructors and mentors have a good idea of how to proceed, and are sure they can guide you, but where you may have to learn some new skills.   These include working with OAuth, MongoDB databases, Firebase, basic screen scraping, reading JSON files, and some others.
+* 400 points for issues where some research may be involved (e.g. using an API (e.g. Google Places, Github, Facebook) for which we don't currently have a tutorial) interacting with a platform for which we have no guidelines (Hibernate for Postgres on Heroku), etc.
+
+Depending on who your mentor is, your issues may be estimated quickly, or it may take a few days.  They should all be estimated by next Thursday though.   At the very least, though, your team should leave tonight with at least two issues that they can get started on.
 
 <hr>
 
