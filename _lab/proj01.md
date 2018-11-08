@@ -22,7 +22,9 @@ If you want to reference the slides from the videos, they are here:
 
 # Creating Your Story Map
 
-## Step 1:  Gather in your team; see the new seating chart here: 
+## Step 1 (Graded):  Gather in your team, and start a flip chart
+
+See the new seating chart here to know where to find your team.
 
 * <https://ucsb-cs56-f18.github.io/info/lab_seating_chart_5pm/>
 * <https://ucsb-cs56-f18.github.io/info/lab_seating_chart_6pm/>
@@ -43,6 +45,8 @@ Mentor: Julia Roberts
 Team: Phill Conrad ✓, Jinjin Shao ✓, Santha Ramamoorthy ✓, Henry Yang ✗, Oprah Winfrey ✗ 
 
 </div>
+
+Being present for today's lab, and making sure your name is on the flip chart with a ✓ is 20% of your grade for today's work.
 
 ## Step 2: Discuss the User Journey
 
@@ -113,9 +117,36 @@ The big question to keep in mind is:
 Here "this" is the goal/need/desire.
 
 
-## Step 4: Make a new chart in the form shown in the video
+## Step 4: (Optional) Make a new chart in the form shown in part 1 of the video
+
+At this stage, you need to make a decision.  
+* Are you ready to go straight to user stories and tasks, as shown in part 2 of the video?
+* Or, would it help to first make a new user story map, in the format shown in part one of the video (and illustrated in the picture?)
+
+If making a new map would help, do that.  If you are ready to go staight to user stories and issues in Github, then go to the next step.
+
+## Step 5: (Required, Graded) Make a Kanban board for your project
+
+Now, we are at the part that is most important to the future success of your project, and the part for which you will be graded (this is the other 80% of your grade for today's work.)
+
+### Step 5a: Locate the repo your mentor created for you.
+
+Your mentor will have set up a github repo for your project under the organization [ucsb-cs56-webapps](https://github.com/ucsb-cs56-webapps]. 
+
+(If you can't find that repo,  ask your mentor for help.  If that repo doesn't exist yet, you mentor should look at the [{{page.num}}\_mentor](/lab/{{page.num}}_mentor) page for instructions on what they should do to set it up.)
+
+This repo is *read only* for you.  So you'll need to fork it, which is the next step.
+
+### Step 5b: Fork the repo into the [{{page.github_org}}](https://github.com/{{page.github_org}})  organization
+
+You will do your work in a *fork* of this repo.  Take these steps:
+1. One member of your team should fork the repo to the [{{page.github_org}}](https://github.com/{{page.github_org}}) organization.
+2. That member should then add ALL of the other members of your team to that repo as collaborators **with admin access**.
+   (If you are not sure what that means, consult with your mentor.)
+3. In the README for that fork of the repo, add a section with the heading `# Fall 2018` and under that heading, put down the first names (only) and the github ids for the members of your team.  Also write 1-2 sentences describing the main idea of your webapp (this is NOT a long detailed description; just the highest level description possible.)
 
 
+   
 
 
 <hr>
