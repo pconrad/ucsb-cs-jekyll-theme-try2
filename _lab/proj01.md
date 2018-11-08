@@ -39,9 +39,11 @@ div.grade { margin: 2em; padding: 1em; border: 2px solid #0c0; background-color:
 
 Please also consult [{{page.num}}\_mentors](/lab/{{page.num}}_mentors/) page for instructions on what mentors and TAs should do to prepare for this lab,  support students as it unfolds, and provide feedback and grades afterwards.)
 
-# Preparation
+# Step 0: Preparation (ideally, completed before lab)
 
-Before you come to lab, please watch at least the first two of these videos.  If possible, watch all three, but at least the first two:
+As I asked you in my Piazza message, before you come to lab, if at all possible, please watch at least the first two of these videos.  
+
+Watch all three if you have time, but at least please watch the first two:
 
 * Part 1 (12:12) (Planning): <https://youtu.be/IsuIZaqnIuU>
 * Part 2 (10:15) (Using a Github Project Kanban Board): <https://youtu.be/8U0FezxxMGU>
@@ -54,7 +56,7 @@ If you want to reference the slides from the videos, they are here:
 # Creating Your Story Map
 
 
-## Step 0:  Gather in your team, and start a flip chart
+## Step 1:  Gather in your team, and start a flip chart
 
 See the new seating chart here to know where to find your team.   
 
@@ -68,7 +70,7 @@ We will set up white board charts for each of you, along with flip chart markers
 * Also identify the TA (Jinjin or Santha) that will be working with your team.
 * Finally, introduce yourselves to each other.
 
-## Step 1:  Start documenting your team's work on a flip chart
+## Step 2:  Start documenting your team's work on a flip chart
 
 We will set up white board charts for each of you, along with flip chart markers, in four corners of the room.
 
@@ -102,7 +104,7 @@ Being present for today's lab, and making sure your name is on the flip chart wi
 
 </div>
 
-## Step 2: Create a communications channel
+## Step 3: Create a communications channel
 
 Create a communication channel for your team.  Your team (including both the CS56 students, and your mentor) must come to a consensus on what this communication channel will be:
 
@@ -142,7 +144,7 @@ Getting yourself added is your responsiblity. Ways you can try:
 
 
 
-## Step 3: Discuss the User Journey
+## Step 4: Discuss the User Journey
 
 (This step is not graded, per se, but you can't meaningfully accomplish the later stages if you try to skip it.)
 
@@ -191,7 +193,7 @@ You'll know you have it, and you are ready for this step when:
 
 * The <b>value exchange</b> part is clearly identified: the goal/need/desire of the user, and how that gets acheived/met/fulfilled
 
-## Step 4: Move towards minimum viable product
+## Step 5: Move towards minimum viable product
 
 (This step is not graded, per se, but you can't meaningfully accomplish the later stages if you try to skip it.)
 
@@ -218,7 +220,7 @@ The big question to keep in mind is:
 Here "this" is the goal/need/desire.
 
 
-## Step 4: (Optional) Make a new chart in the form shown in part 1 of the video
+## Step 6: (Optional) Make a new chart in the form shown in part 1 of the video
 
 (This step is not graded, and you might be able to skip it.  Read through the information below and decide if completing this step would be helpful.  Once you've read through it, you can always decide to skip it for now, and come back if you find that you are stuck.)
 
@@ -228,11 +230,11 @@ At this stage, you need to make a decision.
 
 If making a new map would help, do that.  If you are ready to go staight to user stories and issues in Github, then go to the next step.
 
-## Step 5: (Required, Graded) Make a Kanban board for your project
+## Step 7: (Required, Graded) Make a Kanban board for your project
 
 Now, we are at the part that is most important to the future success of your project, and the part for which you will be graded (this is the other 80% of your grade for today's work.)
 
-### Step 5a: Locate the repo your mentor created for you.
+### Step 7a: Locate the repo your mentor created for you.
 
 Your mentor will have set up a github repo for your project under the organization [ucsb-cs56-webapps](https://github.com/ucsb-cs56-webapps]. 
 
@@ -240,7 +242,7 @@ Your mentor will have set up a github repo for your project under the organizati
 
 This repo is *read only* for you.  So you'll need to fork it, which is the next step.
 
-### Step 5b: Fork the repo into the [{{page.github_org}}](https://github.com/{{page.github_org}})  organization
+### Step 7b: Fork the repo into the [{{page.github_org}}](https://github.com/{{page.github_org}})  organization
 
 You will do your work in a *fork* of this repo.  Take these steps:
 1. One member of your team should fork the repo to the [{{page.github_org}}](https://github.com/{{page.github_org}}) organization.
@@ -257,7 +259,7 @@ You will do your work in a *fork* of this repo.  Take these steps:
 
 </div>
 
-### Step 5c: Make a Kanban board, as illustrated in the [video (Part 2)](https://www.youtube.com/watch?v=8U0FezxxMGU)
+### Step 7c: Make a Kanban board, as illustrated in the [video (Part 2)](https://www.youtube.com/watch?v=8U0FezxxMGU)
 
 Now, go into your forked repo, and go to Projects, and create a project.
 
@@ -288,7 +290,7 @@ At least one of them should be similar to this one from the video, i.e. a Spring
 
 </div>
 
-### Step 5d: Have your mentor review your Kanban board and approve issues
+### Step 7d: Have your mentor review your Kanban board and approve issues
 
 Ask your mentor to look over your Kanban board and make a comment on each of your user stories and issues.
 
@@ -306,7 +308,7 @@ If your mentor has questions/concerns, they'll make those in the comments.  You 
 
 </div>
 
-### Step 5e:  Make initial assignment of issues
+### Step 7e:  Make initial assignment of issues
 
 Each member of your team that is present tonight should be assigned to at least one issue.  You can assign multiple developers to a single issue; this is how you form pairs, trios, and mobs of 4 or more.
 
