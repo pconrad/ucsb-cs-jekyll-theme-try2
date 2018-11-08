@@ -30,9 +30,9 @@ You will need:
    * [CS56 F18 Lab Seating Chart](https://docs.google.com/spreadsheets/d/1IwxSfwdo0p38mooCNZpVPc2uzCRmowsLhqF8pEkaV3I/edit?usp=sharing)
    * By convention, certain pages of that spreadsheet are published as the seating charts on the [{{github_org}}.github.io](https://{{github_org}}.github.io) website.
 * To be an owner in the following github organizations:
-   * [ucsb-cs56-webapps](https://github.org/ucsb-cs56-webapps)
+   * [ucsb-cs56-webapps](https://github.com/ucsb-cs56-webapps)
        * This gives you the ability to create the official repos for the webapp projects.  Students will have read only access to these.
-   * [ucsb-cs56-f18](https://github.org/ucsb-cs56-f18)
+   * [ucsb-cs56-f18](https://github.com/ucsb-cs56-f18)
         * This gives you the ability to work with the students in the repo they fork to do their work, and to work with their Kanban boards, issues, etc.
 * To have TA like access on Gauchospace
    * This is so that you can create a group and a discussion board at Step 3, if necessary.
