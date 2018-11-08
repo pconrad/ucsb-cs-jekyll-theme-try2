@@ -42,23 +42,33 @@ Team: Phill Conrad ✓, Jinjin Shao ✓, Santha Ramamoorthy ✓, Henry Yang ✗,
 
 ## Step 2: Discuss the User Journey
 
-2. Think about the "user journey", that is, all of the events that lead someone  to turn to your webapp and have an interaction with it, or perhaps a series of interactions. There should be a beginning, a middle and an end, where value is exchanged: the user came with a goal, need, or desire, and that goal was met, that need was satisfied, or that desire was fulfilled. 
+As a team, discuss the "user journey" for your proposed application. 
 
+That is, try to describe all of the events that lead someone to seek out your webapp and have an interaction with it, or perhaps a series of interactions. 
+
+There should be a beginning, a middle and an end, where **value is exchanged**: 
+* the user came with a *goal, need, or desire*, and 
+* that goal was *met*, that need was *satisfied*, or that desire was *fulfilled*. 
+
+Identify: 
 * What is that goal, need or desire?
 * What is the series of events, in chronological order?
 
 Discuss this with your group, and on your paper, write down whatever comes to mind.  
 
-At this stage, there is not "right or wrong" way to get your ideas down on the paper.  Just write something
+IF IT IS HELPFUL, you *could* use the form shown in the video, and illustrated in class, where you have a series of stories that form column headings across the top of the page, and then you have descriptions of specific user interactions as sticky notes in the columns, as illustrated here:
+
+INSERT IMAGE
+
+BUT: at this stage, it is more important to get the ideas flowing.  There is no specific "right or wrong" way to get your ideas down on the paper.  Just write something
 that captures the group consensus, or the candidate proposals, for the "user journey".
 
-It can be a list, or pictures, or separate <tt>As a __ I can __ so that __ </tt> type stories, but don't get bogged down
-on what form it takes.  Just get something down.
+It can take any form: a list, or pictures,  a collection of <tt>As a __ I can __ so that __ </tt> type stories, or any combination of those.  Don't get bogged down on what form it takes.  Just get something down.
 
 NOTE: Try to keep your description VERY HIGH LEVEL, avoiding specific implementation details.
 
 * Good:  User selects a beverage from among several choices
-* Too much detail: User clicks on a drop down menu; each beverage has an image which  flashes with an animation as you hover over it, etc. etc. 
+* Too much detail: User clicks on a drop down menu; each beverage has an image which flashes with an animation as you hover over it, etc. etc. 
 
 You don't have to do this "perfectly" the first time.  You may need to first get it all out as "brain dump" that contains too much detail, and then move to a higher level.  But get to the higher level as soon as you can.
 
@@ -74,7 +84,9 @@ You'll know you have it, and you are ready for this step when:
 
 * The <b>value exchange</b> part is clearly identified: the goal/need/desire of the user, and how that gets acheived/met/fulfilled
 
-3.  Now you have an outline, in some form (whatever form seemed reasonable to you)
+## Step 3: Move towards minimum viable product
+
+Now you have an outline, in some form (whatever form seemed reasonable to you)
 
 At this stage, the story you have might have gone in one of two directions:
 
@@ -95,6 +107,9 @@ The big question to keep in mind is:
 > How can we make "this" possible for the user with less complexity, less code, less time
 
 Here "this" is the goal/need/desire.
+
+
+## Step 4: Make a new chart in the form shown in the video
 
 
 
