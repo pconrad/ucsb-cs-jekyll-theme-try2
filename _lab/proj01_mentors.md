@@ -4,8 +4,8 @@ num: proj01_mentors
 student_num: proj01
 ready: true
 desc: "Mentor Duties for proj01"
-assigned: 2018-11-07 17:00
-due: 2018-11-07 19:50
+assigned: 2018-11-08 17:00
+due: 2018-11-08 19:50
 github_org: "ucsb-cs56-f18"
 last_before: "Midterm Exam E02"
 google_drive_folder_url: "https://drive.google.com/drive/folders/1AIPxe23CNuz8ik_AHCseSw-hn-WV2IK6?usp=sharing"
