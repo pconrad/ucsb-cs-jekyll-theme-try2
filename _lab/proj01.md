@@ -35,6 +35,10 @@ div.grade { margin: 2em; padding: 1em; border: 2px solid #0c0; background-color:
 &nbsp;
 </div>
 
+## Note to mentors and TAs:
+
+Please also consult [{{page.num}}\_mentors](/lab/{{page.num}}_mentors/) page for instructions on what mentors and TAs should do to prepare for this lab,  support students as it unfolds, and provide feedback and grades afterwards.)
+
 # Preparation
 
 Before you come to lab, please watch at least the first two of these videos.  If possible, watch all three, but at least the first two:
