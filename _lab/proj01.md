@@ -245,6 +245,8 @@ At least one of them should be similar to this one from the video, i.e. a Spring
 <img src="/lab/proj01/first_issue_30pct.png" alt="First Issue">
 </a>
 
+**(Click the image above for a more legible version)**
+
 ### Step 5d  (40 pts): Have your mentor review your Kanban board and approve issues
 
 Ask your mentor to look over your Kanban board and make a comment on each of your user stories and issues.
