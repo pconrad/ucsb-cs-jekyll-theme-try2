@@ -25,7 +25,7 @@ github_org: "ucsb-cs56-f18"
 
 This assignment counts towards your project grade, not your lab grade.  You may earn up to 100 points.  If you earn fewer (e.g. because you missed lab on {{page.assigned | date: "%a, %b %d" }}, you'll have the oppoortunity to earn more points in later phases of the project to make up for it.
 
-
+There is nothing to "hand in", or "submit" in the traditional sense, other than the physical paper flip chart that you work on this week.  Your mentor will take a picture of that flip chart and add it to your repo for your reference.  Every other part of your work will be checked by the instructional staff reviewing your work directly on Github.
 
 <style>
 div.grade { margin: 2em; padding: 1em; border: 2px solid #0c0; background-color: #efe; }   
