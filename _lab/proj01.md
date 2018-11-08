@@ -8,9 +8,7 @@ due: 2018-11-12 23:59
 github_org: "ucsb-cs56-f18"
 ---
 
-# Grade for this assignment
-
-This assignment counts towards your project grade, not your lab grade.  You may earn up to 100 points.  If you earn fewer (e.g. because you missed lab on {{page.assigned | date: "%a, %b %d" }}, you'll have the oppoortunity to earn more points in later phases of the project to make up for it.
+<div style="float:right; width: auto;">
 
 <table style="margin-top:1em;">
 <tr>
@@ -21,9 +19,21 @@ This assignment counts towards your project grade, not your lab grade.  You may 
 </tr>
 </table>
 
+</div>
+
+# Grade for this assignment
+
+This assignment counts towards your project grade, not your lab grade.  You may earn up to 100 points.  If you earn fewer (e.g. because you missed lab on {{page.assigned | date: "%a, %b %d" }}, you'll have the oppoortunity to earn more points in later phases of the project to make up for it.
+
+
+
 <style>
 div.grade { margin: 2em; padding: 1em; border: 2px solid #0c0; background-color: #efe; }   
 </style>
+
+<div style="clear:both;">
+&nbsp;
+</div>
 
 # Preparation
 
