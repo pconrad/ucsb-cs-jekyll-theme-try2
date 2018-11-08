@@ -83,11 +83,48 @@ After 4 minutes, give them a deadline, and start creating the discussion board o
 The convention will be to create it at the top of the page, with the name `5pm_team_name`.  We'll also need to create groups.  If this happens a lot, we'll create documentation for how to do it (we'll probably do that on the fly, since we might not need it if everyone chooses Slack, or WeChat.)
 
 
-# Step 4: Create a repo under [ucsb-cs56-webapps](https://github.com/ucsb-cs56-webapps) for your team
+# Step 4: Discuss User Journey / Create repo under [ucsb-cs56-webapps](https://github.com/ucsb-cs56-webapps) for your team
+
+Make sure they get started with discussing the User Journey, as documented here [{{page.student_num}}](/lab/{{page.student_num}}/) for this step.  
+
+But quickly, try to pull yourself OUT of the discussion, and while they talk, go do this administrative step:
 
 Under the [ucsb-cs56-webapps](https://github.com/ucsb-cs56-webapps)  organization, create a repo called `ucsb-cs56-project-name` where `project-name` is the name your team chooses for its project.
 
 If you are unable to do so because you are not an owner, consult someone that is already an owner (e.g. a TA, instructor, or even a fellow mentor).
+
+# Steps 5, 6
+
+As with the other "discussion" type steps, your role here is to mostly stay out of the way, but observe, listen, and keep the group on track.   Try to get one of the students to be the discussion leader.  If you end up in that role, try repeatedly to work yourself out of that job.
+
+# Step 7a, 7b, 7c
+
+Just supervise and watch.  They should be able to do this on their own, but do keep an eye out to make sure they are doing it properly.   Advise as needed.
+
+### Step 7d: "Have your mentor review your Kanban board and approve issues"
+
+*THIS* is the most important step of the day, because the students literally cannot proceed without it, and it takes time; unlike creating the repos, where its so fast, that the TA or instructor could do it at the scale of the entire class in about 10 minutes, this is where we really need individual attention from each team mentor.
+
+When giving feedback on issues, do it in writing using comments. Consider asking them questions such as these:
+
+* I wonder whether this is specific enough. Can you clarify x, y and z?
+* Tell me more about a and b.  Why does the user need this?  Is it really part of MVP?
+
+That can sometimes be more effective them telling them exactly what to do; but in whatever way you wish to communicate, as long as it is kind and respectful, let the students know (via comments on the issues) what they need to do before feel comfortable approving.
+
+## If you have experience with estimating points
+
+If you have estimated points for CS56 issues before (100 pts, 200 pts, 400 pts), etc:
+   * Then, go ahead and put point estimates on the issues
+If you have not done this before
+   * Find one of the mentors or TAs that has (we can use Slack for this)
+   * Sit with them and do the initial estimates hand-in-hand with them
+   * This does NOT have to happen during your 50 minute lab section tonight, but it should happen as soon as possible so that the students can get started on planning their work for the rest of the quarter.
+   
+
+
+
+
 
 
 
