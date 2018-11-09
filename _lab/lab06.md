@@ -150,12 +150,11 @@ Logged into CSIL (or one of the machines in the CSTL, i.e. Phelps 3525), use thi
 heroku login
 ```
 
-Then, use this command to create a new web app running on heroku.  Substitute your github id in place of `githubid`.  Note that you should convert your githubid to all lowercase; heroku web-app names do not permit uppercase letters.
+Then, use this command to create a new web app running on heroku.  Substitute your github id (or pair or trio of githubids) in place of `githubid`.  Note that you should convert your githubid to all lowercase; heroku web-app names do not permit uppercase letters.   
 
-A reminder that this is an individual lab, so you should complete it for yourself, i.e. there is only one github id in the name, not a pair of github ids.   
+For a pair or trio, if including all of your githubid results in a project name that is too long for Heroku, you may substitute initials, e.g. `lab06_rw_pc_dm` rather than `lab06_richertwang_pconrad_dibamirza`
 
 Note: please do not literally put the letters <tt><i>githubid</i></tt> in your app name; you are meant to substitute your own github id there.
-
 
 <tt>heroku create cs56-{{site.qxx}}-<i>githubid</i>-{{page.num}}</tt>
 
