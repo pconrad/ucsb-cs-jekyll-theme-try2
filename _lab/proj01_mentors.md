@@ -121,6 +121,30 @@ If you have not done this before
    * Sit with them and do the initial estimates hand-in-hand with them
    * This does NOT have to happen during your 50 minute lab section tonight, but it should happen as soon as possible so that the students can get started on planning their work for the rest of the quarter.
    
+<div markdown="1">
+ 
+### A note on estimation 
+
+Estimating points (100, 200, 400) for issues is very similar to "story points" as in the Agile practice of "planning poker":
+
+* <https://www.mountaingoatsoftware.com/agile/planning-poker>
+* <https://en.wikipedia.org/wiki/Planning_poker>
+
+But with a conversion factor of:
+
+| Agile Story Points | CS56 Project Points |
+|-|-|
+| 1 | 100 |
+| 2 | 200 | 
+| 4 | 400 |
+| 8 | Way too big; decompose issue |
+
+And the major difference that you are doing it all by yourself.  (It occurs to me: maybe we should consider incorporating this as an exercise for the mentors to do this as a group.   Maybe next time.)
+
+The thing about Agile Planning Poker is that it's almost always a wild guess.   We do our best to try to estimate, but we are frequently wrong.  More frequently than we'd like, things we think are going to be easy turn out to be hard.  Things we think are going to be hard turn out to be easy.
+
+</div>
+   
 ### Step 7e: "Assignment of Issues"
 
 Try to help guide the student through the assignment of issues.  Let them know that they need to decide how whether to divide up the work into pairs, groups, trios, etc.
