@@ -64,7 +64,9 @@ is being implicitly invoked on the object `s` on line 2 of the listing
 above to produce the value `Student@7852e922`, and in what class is
 that method defined?
 
-<p class="key">the `toString()` method of `java.lang.Object`</p>
+<p class="key" markdown="1">
+the `toString()` method of `java.lang.Object`
+</p>
 
 </li>
 <li markdown="1" style="margin-bottom:1em;">
@@ -76,8 +78,9 @@ Your change should make it so that any time an reference to a Student object is 
 
 Note: Don't write the Java code, just *describe* in English, using correct Java and Object-Oriented Programming terminology, at a high-level,  what code needs to be written, and in what class that code belongs.
 
-<p class="key">in `public class Student` we should override the `toString()` method of `java.lang.Object` with one that returns a string formatted with the name and perm as shown.   (Note: it's not a required part of the answer, but since several folks mentioned it in their incorrect answers, I'll note: We don't need getters because `toString` is a member function.</p>
-
+<p class="key" markdown="1">
+in `public class Student` we should override the `toString()` method of `java.lang.Object` with one that returns a string formatted with the name and perm as shown.   (Note: it's not a required part of the answer, but since several folks mentioned it in their incorrect answers, I'll note: We don't need getters because `toString` is a member function
+</p>
 
 </li>
 </ol>
