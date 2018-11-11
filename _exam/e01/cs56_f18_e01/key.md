@@ -1,5 +1,5 @@
 ---
-layout: exam_info
+layout: exam
 num: e01
 ready: true
 desc: "Midterm E01 Partial Key"
