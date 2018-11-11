@@ -15,21 +15,21 @@ public class Dog {
     
     public static void main(String [] args) {
 	
-	Dog d1 = new Dog("Fido");
-    	Dog d2 = new Dog("Ginger");
-	Dog d3 = new Dog("Harry");
-	Dog d4 = new Dog("Izzy");
-	Dog d5 = new Dog("Jack");
-	Dog d6 = d1;
+	Dog d1 = new Dog("Kiki");
+	Dog d2 = new Dog("Lassie");
+	Dog d3 = new Dog("Molly");
+	Dog d4 = new Dog("Ninja");
+	Dog d5 = new Dog("Otto");
+	Dog d6 = d3;
 	
-	setBestInShow(d3);   gc(25);
-	d1 = d4;             gc(26);
-	d3 = d6;             gc(27);
+	setBestInShow(d2);   gc(25);
+	d5 = d1;             gc(26);
+	d4 = d2;             gc(27);
 	d1 = null;           gc(28);
-	d2 = null;           gc(29);
-	d3 = null;           gc(30);
-	d4 = null;           gc(31);
-	d5 = null;           gc(32);
+	d3 = null;           gc(29);
+	d5 = null;           gc(30);
+	d2 = null;           gc(31);
+	d4 = null;           gc(32);
 	d6 = null;           gc(33);
 	setBestInShow(null); gc(34);
     }
