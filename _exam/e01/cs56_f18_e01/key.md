@@ -15,6 +15,10 @@ exam_date: 2018-10-24 12:30
     border: 4px solid #393;
     background-color: #ffe;
 }
+    
+.key pre {
+   font-family: 'Marker Felt', 'Chalkduster','Cartoonist Hand','Comic Neue','Comic Sans MS',cursive,sans-serif;
+}
 </style>
 
 <script>
@@ -112,13 +116,40 @@ All of the files on [Handout A](handout_a/) are complete and will compile EXCEPT
                  double wheelDiameter,
                  String name,
                  String batteryType) {
+```   
+<p class="key" markdown="1">
+```
+  super(numGears, wheelDiameter);                                   
+  this.name = name;
+  this.batteryType = batteryType;
+```
+</p>
 
-
-
-
-
-
+```
    }
+```
+<p class="key" markdown="1">
+Note: if you don't include `super(numGears, wheelDiameter);` you get:
+```
+required: int,double
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+1 error
+```
+Also, the following code produces an error:
+```java
+this.numGears = numGears;
+this.wheelDiameter = wheelDiameter;
+```
+
+The error is:
+
+```
+EBike.java:21: error: numGears has private access in Bicycle
+		this.numGears = numGears;
+		    ^
+EBike.java:22: error: wheelDiameter has private access in Bicycle
+		this.wheelDiameter = wheelDiameter;
 ```
 </li>
 <li markdown="1"> (4 pts) In the space below, write the other missing part from `EBike.java`   It is at least one line of code, and at most three lines of code; so it should easily fit in the space provided.    Answer as though the code you write would be placed at line 10 of the listing for `EBike.java` on [Handout A](handout_a/).
