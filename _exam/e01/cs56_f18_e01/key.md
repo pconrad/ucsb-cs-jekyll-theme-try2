@@ -12,7 +12,8 @@ exam_date: 2018-10-24 12:30
     font-family: 'Marker Felt', 'Chalkduster','Cartoonist Hand','Comic Neue','Comic Sans MS',cursive,sans-serif;
     padding: 1em;
     margin: 1em;
-    border: 4px solid #533;
+    border: 4px solid #393;
+    background-color: #ffe;
 }
 </style>
 
