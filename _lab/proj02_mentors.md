@@ -39,7 +39,7 @@ Record who was present for the start of the Standup (for now on a piece of paper
 
 Your role in the standup is only to help guide making sure that it happens; the students should self-organize and run the standup.  You can gently guide them though, and remind them of what a standup is supposed to accomplish (this list comes from [an article by Martin Fowler](https://martinfowler.com/articles/itsNotJustStandingUp.html#TheParticularSetOfProblemsThatOccurWhenPeopleAttemptToWorkTogether))
 
-Four purposes of the standup:
+Here's what a standup is *for*:
 
 <blockquote markdown="1">
 * **Share understanding of goals**. Even if we thought we understood each other at the start (which we probably didn’t), our understanding drifts, as does the context within which we’re operating. A “team” where each team member is working toward different goals tends to be ineffective.
