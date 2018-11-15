@@ -29,6 +29,9 @@ Here's a checklist of things that should have been done by either you, or your t
    * If you have questions or doubts about approving the issues or estimating the points, please speak up on the Slack, or come in person to one of the TAs or the instructor, or to a mentor with more experience in the course.
 1. Is each member of the team assigned to at least one story?
 
+
+
+
 # During lab on {{page.assigned | date: "%a, %b %d, %y"  }}
 
 ## Step 1: Agile Standup
@@ -47,4 +50,5 @@ Here's what a standup is *for*:
 * **Share problems and improvements**. One of the primary benefits of a team versus working alone, is that team members can help each other when someone encounters a problem or discovers a better way of doing something. A “team” where team members are not comfortable sharing problems and/or do not help each other tends to be ineffective
 * **Identify as a team** It is very difficult to psychologically identify with a group if you don’t regularly engage with the group. You will not develop a strong sense of relatedness even if you believe them to be capable and pursuing the same goals.
 </blockquote)
+
 
