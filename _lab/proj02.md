@@ -12,9 +12,16 @@ github_org: "ucsb-cs56-f18"
 # Step 1: Hold an Agile Standup Meeting (Scrum)
 
 
-# Step 2: Understand the process of earning your 1000 points
+# Step 2: Understand the process of earning your 1000 points (Read below)
 
-# Step 3: Work on your issues
+
+# Step 3: Make a decision about your point awarding
+
+* DEFAULT: only folks assigned to issues earn the points.
+
+* ALTERNATIVE: (requires unanimous team agreement, recorded in feedback repo) All for one, one for all.  ALL team members earn ALL points for every issue completed by team.
+
+# Step 4: Work on your issues
 
 
 
