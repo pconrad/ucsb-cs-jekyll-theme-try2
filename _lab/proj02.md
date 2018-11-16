@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: proj02
-ready: false
+ready: true
 desc: "Working on your issues"
 assigned: 2018-11-15 17:00
 due: 2018-11-28 23:59
@@ -13,6 +13,10 @@ github_org: "ucsb-cs56-f18"
 
 
 # Step 2: Understand the process of earning your 1000 points
+
+# Step 3: Work on your issues
+
+
 
 ## Process in Brief
 
