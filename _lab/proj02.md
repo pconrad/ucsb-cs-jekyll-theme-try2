@@ -24,6 +24,26 @@ github_org: "ucsb-cs56-f18"
 # Step 4: Work on your issues
 
 
+# A note on Skunkworks projects
+
+You may find it helpful to an an issue for a "skunkworks" project.  That's where you build a bit of throwaway code as a "proof-of-concept" or an "experiment".  
+
+For example, if you have 
+* never worked with an SQl database before
+* never tried to setup an OAuth login before
+* never tried to access a Google API before
+
+You might want to do those things in a separate standalong throwaway project before integrating those into your main code base.
+
+For those purposes, you can set up a skunkworks project.
+
+1. Create a issue describing the skunkworks project you want to create
+2. Create a repo with the name sw-team-name-issue5  for example, if the issue is #5 on your repo
+3. Work on that issue separately in a branch called issue5, then do a "pull request" to the master branch of that same repo.
+4. Other than that, it works the same way as regular issues, and you can get points the same way.
+
+
+
 
 ## Process in Brief
 
