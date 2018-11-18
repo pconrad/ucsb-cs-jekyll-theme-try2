@@ -4,7 +4,7 @@ num: proj02_mentors
 prev_num: proj01_mentors
 student_num: proj02
 prev_student_num: proj01
-ready: false
+ready: true
 desc: "Mentor Duties for proj02"
 assigned: 2018-11-15 17:00
 due: 2018-11-15 19:50
@@ -49,6 +49,6 @@ Here's what a standup is *for*:
 * **Coordinate efforts** If the work doesn’t need to be coordinated, you don’t need a team. Conversely, if you have a team, I assume the work requires coordination. Poor coordination amongst team members tends to lead to poor outcomes.
 * **Share problems and improvements**. One of the primary benefits of a team versus working alone, is that team members can help each other when someone encounters a problem or discovers a better way of doing something. A “team” where team members are not comfortable sharing problems and/or do not help each other tends to be ineffective
 * **Identify as a team** It is very difficult to psychologically identify with a group if you don’t regularly engage with the group. You will not develop a strong sense of relatedness even if you believe them to be capable and pursuing the same goals.
-</blockquote)
+</blockquote>
 
 
