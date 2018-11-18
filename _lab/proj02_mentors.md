@@ -4,7 +4,7 @@ num: proj02_mentors
 prev_num: proj01_mentors
 student_num: proj02
 prev_student_num: proj01
-ready: false
+ready: true
 desc: "Mentor Duties for proj02"
 assigned: 2018-11-15 17:00
 due: 2018-11-15 19:50
