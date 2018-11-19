@@ -55,8 +55,12 @@ public class StudentMain {
 }
 {% endhighlight %}
 
+
+<div style="clear:both;">
+</div>
+
 ## `StudentMain.java` compile output
-											   
+
 {% highlight java linenos %}
 StudentMain.java:10: error: no suitable method found for sort(no arguments)
 	java.util.Collections.sort();
@@ -74,7 +78,34 @@ StudentMain.java:10: error: no suitable method found for sort(no arguments)
 {% endhighlight %}
 
 
+## `StringSort.java` output
+											   
+{% highlight java linenos %}
+import java.util.ArrayList;
+public class StringSort {
 
+    public static void main(String [] args) {
+
+	String [] words = {"duck","pig","cat","dog","moose",
+			   "goose","cow","a","an","to","be"};
+	ArrayList<String> wlist = new ArrayList<String>();
+
+	for (String w : words)
+	    wlist.add(w);
+
+	// Insert code to sort here 
+
+
+
+
+
+
+	System.out.println(wlist);
+    }
+}
+{% endhighlight %}
+
+</div>
 
 <div class="page2 page-break-before">
 
@@ -164,3 +195,4 @@ java.lang.Object
 
 </div>
 </div>
+

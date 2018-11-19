@@ -7,9 +7,9 @@ qtr: f18
 ---
 
 <style>
- body { font-size: 72%;
- line-height: 102%;
 
+body { font-size: 90%;
+ line-height: 102%;
 }
 
  td  {
@@ -71,7 +71,7 @@ The class `java.util.Collections` contains the following static method:
 The classes `java.lang.String` and `java.lang.Double` implement `Comparable<String>` and `Comparable<Double>`, each in the
 way that you would expect.
 
-# Other potentially useful methods
+## Other potentially useful methods
 
 In `java.lang.Integer`:
 
@@ -79,40 +79,11 @@ In `java.lang.Integer`:
      style="font-size: 80%; font-family: Arial Narrow, sans-serif;"
      class="hanging-indent-table">
 
-
 |`public static int` | `compare(int i1, int i2)` |  Compares the two specified int values.  <br> The sign of the int value returned <br>matches the contract of the `compare` method in `java.util.Comparator` |
-
 
 </div>
 
-
-
-<h2 markdown="1" class="page-break-before">Handout B, p. 2</h2>
-
-
-## `StringSort.java` output
-											   
-{% highlight java linenos %}
-import java.util.ArrayList;
-public class StringSort {
-
-    public static void main(String [] args) {
-
-	String [] words = {"duck","pig","cat","dog","moose",
-			   "goose","cow","a","an","to","be"};
-	ArrayList<String> wlist = new ArrayList<String>();
-
-	for (String w : words)
-	    wlist.add(w);
-
-	// Insert code to sort here 
+<hr style="margin:3em; ">
 
 
 
-
-
-
-	System.out.println(wlist);
-    }
-}
-{% endhighlight %}
