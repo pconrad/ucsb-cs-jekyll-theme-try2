@@ -87,3 +87,7 @@ And that gives them ALMOST NO time to respond if they are problems, before gradi
 Finally, after all this planning, there is, we hope coding.  
 
 Help the students with their coding in any way you can.
+
+# How to do the QA Step
+
+TBD
