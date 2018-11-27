@@ -4,7 +4,7 @@ num: proj03
 ready: false
 desc: "Finishing up your issues"
 assigned: 2018-11-28 12:30
-due: 2018-12-04 23:59
+due: 2018-12-04 17:00
 github_org: "ucsb-cs56-f18"
 ---
 
