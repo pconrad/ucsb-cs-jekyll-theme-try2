@@ -5,6 +5,7 @@ ready: false
 desc: "Finishing up your issues"
 assigned: 2018-11-28 12:30
 due: 2018-12-04 17:00
+final_lab_start_time: 2018-12-06 17:00
 github_org: "ucsb-cs56-f18"
 ---
 
@@ -69,5 +70,14 @@ Offer help to others too, that may be stuck.
 # Step 4: Work on your issues
 
 Get 'em done!
+
+All issues are due (should be ready for Mentor QA grading, with a pull request submitted) by:
+
+* {{page.due | date: "%a, %b %d, %y at %h:%m %p" }}
+
+For any work done after that, your mentor may not have time to QA it in time for the TA to grade it.
+
+Only work that is QA'd by the time the final lab starts ({{page.due | date: "%a, %b %d, %y at %h:%m %p" }}
+is eligible for course credit towards the project grade.
 
 
