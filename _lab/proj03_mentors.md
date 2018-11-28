@@ -242,6 +242,32 @@ no points awarded yet
 
 ```
 
+# Skunkworks Code Reviews
 
+A mentor asked:
+
+> One student from my team has made a side repo for the skunkworks project, which will be integrated with the main project repo they are using. Should I have them push the side repo to the ucsb-cs56-f18 organization? And where should they put their issues that are associated to this side repo?
+
+I replied: 
+
+So, the issues should go in the regular issues list for your team.
+
+If the side repo isn't part of the ucsb-cs56-f18 organization, they should:
+
+1. Make an empty repo in ucsb-cs56-f18 called where-is-every1-sw-7  (where 7 is, for example the issue number that mentions the creation of the skunkworks).
+2. Just put a `README.md` in that empty repo
+3. Fork the repo to their own personal account.
+4. Add a remote for their "side repo" to the forked copy, e.g.
+   ```
+   git remote add siderepo url-of-side-repo
+   ```
+5.  Do a pull from the side-repo with `--allow-unrelated-histories`
+   ```
+   git pull --allow-unrelated-histories siderepo master
+   ```
+6. Fix the merge conflict in the `README.md` if any
+7. Do a pull request back to the `ucsb-cs56-f18/where-is-every1-sw-7` repo
+
+That pull request is the one that you can code review.
     
 
