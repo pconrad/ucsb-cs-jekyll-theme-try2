@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: proj04
-ready: false
+ready: true
 desc: "Leaving a Legacy"
 assigned: 2018-12-06 17:00
 due: 2018-12-06 19:50
