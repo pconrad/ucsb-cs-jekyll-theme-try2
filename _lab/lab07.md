@@ -15,7 +15,7 @@ What you need to do today in lab:
   (1 pts) Fill out the name of ONE team member on this worksheet at the top
 </li>
 <li markdown="1"> 
-  (10 pts) Fill in only the team members names that are physically present in lab today (including the name of the
+  (9 pts) Fill in only the team members names that are physically present in lab today (including the name of the
 person at the top of this sheet.  Then fill in your mentor and team name.
 
 <style>
@@ -64,7 +64,7 @@ THEN TURN OVER THE PAGE FOR THE REST OF THE 100 points for this lab.
 </li>
  
 
-<li markdown="1"> (25 pts) Now, return to your team, and meet with your mentor.  Go through the list of issues for team, one at a time, and have your mentor:
+<li markdown="1"> (20 pts) Now, return to your team, and meet with your mentor.  Go through the list of issues for team, one at a time, and have your mentor:
 * CLOSE any issues that are actually fully resolved. 
 * If the issue is partially resolved, enter a NEW issue for the unresolved part (that the {{page.next_class_qtr}} team will work on), and get the mentor to estimate it.
 * Then, work with the mentor to put in at least 500 points worth of new issues for the {{page.next_class_qtr}} team to work on. (If you already have 500 point worth of issues, estimated and ready to go for {{page.next_class_qtr}}, you are done. Otherwise, work together with your mentor on this until it is finished.
