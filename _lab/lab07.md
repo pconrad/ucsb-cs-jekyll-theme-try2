@@ -11,8 +11,12 @@ next_class_qtr: S19
 What you need to do today in lab:
 
 <ol>
-<li> (5 pts) Fill out your name on this worksheet at the top</li>
-<li> (5 pts) Fill in your mentor's name and team name below:
+<li> 
+  (1 pts) Fill out the name of ONE team member on this worksheet at the top
+</li>
+<li markdown="1"> 
+  (10 pts) Fill in only the team members names that are physically present in lab today (including the name of the
+person at the top of this sheet.  Then fill in your mentor and team name.
 
 <style>
 div.fill-in-table table {
@@ -28,6 +32,10 @@ div.fill-in-table table {
 |-|-|
 | | |
 
+| Team Members (one per blank) | Team Members | Team Members  | Team Members  |
+|-|-|-|-|
+| | | | |
+| | | | |
 </div>
 </li>
 
@@ -42,8 +50,7 @@ div.fill-in-table table {
 * If there is any dispute about that, bring it to the instructor's attention NOW before this lab is done.
   </li> 
   
-  <li markdown="1"> (10 pts) Now look in the repo and see if your TA (Mahnaz for front two rows, Santha for back two rows) has:
-  
+  <li markdown="1"> (10 pts) Now look in the repo and see if your TA (Jinjin or Santha)  
   * assigned the final points (i.e. grade our of /1000 plus extra credit out of /100) for your team based on the issues you completed, and the feedback from your mentor, and
   * has recording that feedback IN THE FEEDBACK REPO (not just told you).
   * When that's done, you initial <code>____</code>  and your TA initials here:<code>____</code> and record date/time <code>____</code>.
@@ -56,25 +63,6 @@ THEN TURN OVER THE PAGE FOR THE REST OF THE 100 points for this lab.
 
 </li>
  
-<li markdown="1"> (15 pts) Now, rows 1 and 2 and rows 3 and 4 are going to trade repos, and check that they can COMPILE AND RUN each others final projects.    
-  
-* Send the row in front or behind you the URL of the repo from which you did your last pull request.  Write that url here:   
-
-   * <code>_________________________________________</code>
-
-* Get the corresponding URL of the row behind you.  Write that url here:   
-
-   * <code>_________________________________________</code>
-
-* In pairs, individually, or as a team, try to compile and run their code.  IF THERE IS ANY DATABASE SET UP NEEDED, the README of both your repo and that of the other team should document that setup.  IF IT DOESN'T, GET SOMEONE FROM EACH TIME TO STOP AND FIX THIS.
-
-Were you able to get the other team's repo to run? Circle one:  YES NO
-
-Where they able to get your repo to run? Circle one:  YES NO
-
-Explain any NO answers.   The goal is to NOT HAVE a NO answer.
-
-</li>
 
 <li markdown="1"> (25 pts) Now, return to your team, and meet with your mentor.  Go through the list of issues for team, one at a time, and have your mentor:
 * CLOSE any issues that are actually fully resolved. 
@@ -85,7 +73,7 @@ Explain any NO answers.   The goal is to NOT HAVE a NO answer.
 When this is done, you initial <code>____</code>  and your TA initials here:<code>____</code> and record date/time <code>____</code>.
 </li>
 
-<li> (30 pts) YOUR LAST RESPONSIBLITY IN THIS COURSE: Do some final edits in the README.md file of the cs56/{{site.qxx | downcase}} directory in your repo.  Put in a section called “{{site.qxx}} final remarks” and in it, write a short “note” to the next set of students that will work on this legacy code project.
+<li> (30 pts) YOUR LAST RESPONSIBLITY IN THIS COURSE: Make a branch in the <tt>ucsb-cs56-{{site.qxx | downcase}}</tt> version of your repo.   Do some final edits in the README.md file of the cs56/{{site.qxx | downcase}} directory in your repo.  Put in a section called “{{site.qxx}} final remarks” and in it, write a short “note” to the next set of students that will work on this legacy code project.
 
 Tell them exactly what you think would be helpful for them to know as they start the project: what the code does, what features could be added, what bugs exist, what opportunities for refactoring you see. Also add any advice you have on working with the code you have left them, for with legacy code in general.
 
