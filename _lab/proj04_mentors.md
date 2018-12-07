@@ -24,5 +24,5 @@ The main goal is that by the end of each 50 minute lab period:
  
 If all goes well, there should be NO OUTSTANDING left over work at the end of the 50 minutes this evening.
 
-See also: [proj4](/lab/proj4/] and [lab07](/lab/lab07)
+See also: [proj4](/lab/proj4/) and [lab07](/lab/lab07)
 
