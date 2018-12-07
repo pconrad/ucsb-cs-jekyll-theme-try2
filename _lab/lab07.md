@@ -73,7 +73,7 @@ THEN TURN OVER THE PAGE FOR THE REST OF THE 100 points for this lab.
 When this is done, you initial <code>____</code>  and your TA initials here:<code>____</code> and record date/time <code>____</code>.
 </li>
 
-<li> (30 pts) YOUR LAST RESPONSIBLITY IN THIS COURSE: Make a branch in the <tt>ucsb-cs56-{{site.qxx | downcase}}</tt> version of your repo.   Do some final edits in the README.md file of the cs56/{{site.qxx | downcase}} directory in your repo.  Put in a section called “{{site.qxx}} final remarks” and in it, write a short “note” to the next set of students that will work on this legacy code project.
+<li markdown="1" style="clear:both;"> (50 pts) YOUR LAST RESPONSIBLITY IN THIS COURSE: Make a branch in the <tt>ucsb-cs56-{{site.qxx | downcase}}</tt> version of your repo.   Do some final edits in the README.md file of the cs56/{{site.qxx | downcase}} directory in your repo.  Put in a section called “{{site.qxx}} final remarks” and in it, write a short “note” to the next set of students that will work on this legacy code project.
 
 Tell them exactly what you think would be helpful for them to know as they start the project: what the code does, what features could be added, what bugs exist, what opportunities for refactoring you see. Also add any advice you have on working with the code you have left them, for with legacy code in general.
 
