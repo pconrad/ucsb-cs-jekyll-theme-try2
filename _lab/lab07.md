@@ -69,6 +69,8 @@ THEN TURN OVER THE PAGE FOR THE REST OF THE 100 points for this lab.
 * If the issue is partially resolved, enter a NEW issue for the unresolved part (that the {{page.next_class_qtr}} team will work on), and get the mentor to estimate it.
 * Then, work with the mentor to put in at least 500 points worth of new issues for the {{page.next_class_qtr}} team to work on. (If you already have 500 point worth of issues, estimated and ready to go for {{page.next_class_qtr}}, you are done. Otherwise, work together with your mentor on this until it is finished.
 
+MENTORS: Add a tag for <tt>{{page.next_class_qtr}}</tt> and, if you don't already have one, a tag for  <tt>mentor approved</tt>.   Use the point value tags, and try to stay with values of <tt>100</tt>, <tt>200</tt> and <tt>400</tt> only.
+
 
 When this is done, you initial <code>____</code>  and your TA initials here:<code>____</code> and record date/time <code>____</code>.
 </li>
