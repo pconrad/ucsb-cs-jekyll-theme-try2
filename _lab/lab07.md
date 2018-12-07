@@ -24,6 +24,9 @@ div.fill-in-table table {
   width: 90%;
   text-align:center;
 }
+  div.fill-in-table * td {
+  line-height: 200%;
+}
 </style>
 
 <div class="fill-in-table" markdown="1">
