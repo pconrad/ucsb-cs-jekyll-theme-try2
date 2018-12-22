@@ -28,3 +28,4 @@ TODO
 ----
 
 * In `lecture_next_prev_links.html`, there is a loop that's probably O(n^2).  Try replacing with JS code that will run in time O(n).   
+* Can `head.html` and `head_hwk.html` be refactored into a single file with some variables to switch on or off the extra css and js for homework assignments?
