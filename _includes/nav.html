@@ -10,7 +10,7 @@
  <nav data-role="navbar" >
   <ul>
    <li><a href="{{site.gauchospace_course_page}}">Gauchospace</a></li>
-   <li><a href="{{site.piazza_url}}">Piazza</a></li>
+   <li><a href="{{site.piazza_url | relative_url }}">Piazza</a></li>
    <li><a href="https://github.com/ucsb-cs56-f18">F18 github org</a></li>
    <li><a href="https://github.com/ucsb-cs56-webapps">webapps</a></li>
   </ul>
@@ -19,7 +19,7 @@
  <nav data-role="navbar" >
   <ul class="hwk-nav-bar">
   {% for asn in site.hwk %}
-    <li><a href="{{asn.url}}">{{asn.num}}</a></li>
+    <li><a href="{{asn.url | relative_url }}">{{asn.num}}</a></li>
   {% endfor %}
   </ul>
  </nav>

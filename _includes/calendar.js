@@ -7,7 +7,7 @@ var dates = {
 	    "desc" :  "{{ asn.desc }}",
 	    "assigned" :  "{{ asn.assigned }}",
 	    "due" :  "{{ asn.due }}",
-	    "url" :  "{{ asn.url }}",
+	    "url" :  "{{ asn.url | relative_url  }}",
 	},
 	{% endfor %}
     ],
@@ -20,7 +20,7 @@ var dates = {
 	    "desc" :  "{{ asn.desc }}",
 	    "assigned" :  "{{ asn.assigned }}",
 	    "due" :  "{{ asn.due }}",
-	    "url" :  "{{ asn.url }}",
+	    "url" :  "{{ asn.url | relative_url  }}",
 	},
 	{% endif %}
 	{% endfor %}
@@ -34,7 +34,7 @@ var dates = {
 	    "ready" :  "{{ asn.ready }}",
 	    "desc" :  "{{ asn.desc }}",
 	    "exam_date" :  "{{ asn.exam_date }}",
-	    "url" :  "{{ asn.url }}",
+	    "url" :  "{{ asn.url | relative_url  }}",
 	},
 	{% endif %}
 	{% endfor %}
