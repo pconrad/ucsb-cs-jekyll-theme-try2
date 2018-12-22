@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
   <head>
     {% include head_exam.html %}
+    {% include head/custom.html %}
     <title>{{ page.num }} - {{ page.desc }} - {{course}}</title>
   </head>
   <body id="page-top">
@@ -49,7 +50,8 @@
         {{ content }}
 	<div class="end-of-exam">End of Exam</div>
         </div><!-- content -->
-        {% include footer.html %}
+      {% include footer/custom.html %}
+      {% include_cached footer.html %}
       </div><!-- container -->
 
       
