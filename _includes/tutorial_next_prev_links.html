@@ -27,11 +27,11 @@
   </tr>
   <tr>
     {% if prev_link %}
-      <td><a href="{{prev_link}}">{{prev_title}}</a></td>    
+      <td><a href="{{prev_link | relative_url }}">{{prev_title}}</a></td>    
     {% endif %}
     <td >{{page.title}}</td>    
     {% if next_link %}
-      <td><a href="{{next_link}}">{{next_title}}</a></td>    
+      <td><a href="{{next_link | relative_url }}">{{next_title}}</a></td>    
     {% endif %}
   </tr>
 </table>
