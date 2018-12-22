@@ -1,15 +1,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<script src="{{site.baseurl}}/jquery-dateFormat.js"></script>
+
+<script src="{{ '/assets/js/jquery-dateFormat.js' | relative_url }}"></script>
+
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
 
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}">
 
-<script src="{{site.baseurl}}/site.js"></script>
-<script>
-  {% include moment.min.js %}
-  {% include calendar.js %}
-</script>
+<script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/moment.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/calendar.js' | relative_url }}"></script>
+
+

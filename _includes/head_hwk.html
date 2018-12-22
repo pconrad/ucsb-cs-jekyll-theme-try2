@@ -6,20 +6,7 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/hwk.css' | relative_url }}">
 
-<script type="text/javascript"
-    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+<script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/hwk.js' | relative_url }}"></script>
 
-<script src="{{site.baseurl}}/site.js"></script>
-<script src="{{site.baseurl}}/hwk.js"></script>
-
-{% if site.head_scripts %}
-  {% for script in site.head_scripts %}
-    {% if script contains "://" %}
-      {% capture script_path %}{{ script }}{% endcapture %}
-    {% else %}
-      {% capture script_path %}{{ script | relative_url }}{% endcapture %}
-    {% endif %}
-    <script src="{{ script_path }}"></script>
-  {% endfor %}
-{% endif %}
+{% include head_scripts.html %}
