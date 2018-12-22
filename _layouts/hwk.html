@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
   <head>
     {% include head_hwk.html %}
+    {% include head/custom.html %}    
     <title>{{ page.num }} - {{ page.desc }} - {{course}}</title>
   </head>
-    <body id="page-top">
-      <div id="container" data-role="page">
+  <body id="page-top">
+    <div id="container" data-role="page">
       {% include nav.html %}
       {% if page.ready %}
       {% else %}
       {% include not_ready_warning.html %}
       {% endif %}     
-        <div id="content"  class="ui-content">
+      <div id="content"  class="ui-content">
         <div class="hwk-header">
           <div class="hwk-page-header hwk-page-header-template">
 	    <table>
-	      <tr> <td class="page-num">1</td>  </tr>
-	      <tr> <td class="asn-num">{{page.num}}</td>  </tr>
-	      <tr> <td class="course-qtr">CS56&#160;<span class="insert-qtr">{{site.qtr}}</span></td>  </tr>
+	      <tr><td class="page-num">1</td>  </tr>
+	      <tr><td class="asn-num">{{page.num}}</td>  </tr>
+	      <tr><td class="course-qtr">{{site.course}}&#160;{{site.qtr}}</td>  </tr>
 	    </table>
 	  </div>
 	  
@@ -70,7 +71,8 @@ in place of that, we drop the {{site.hwk_drop_lowest}} lowest scores (if you hav
         </div><!-- hwk-header -->  
           {{ content }}
         </div><!-- content -->
-        {% include footer.html %}
+          {% include footer/custom.html %}
+          {% include_cached footer.html %}
       </div><!-- container -->
   </body>
 </html>
