@@ -1,15 +1,3 @@
-var DEBUGGING_ONLY = {
-    "collections" : [
-
-	{% for c in site.collections %}
-	{
-	    "label" : "{{c.label}}"
-        },
-	{% endfor %}
-    ]
-};
-
-
 var dates = {
     "hwk": [
 	{% for asn in site.hwk %}
