@@ -1,0 +1,9 @@
+---
+layout: null
+---	    
+
+@media print {
+    nav {
+	display: none;
+    }
+}
