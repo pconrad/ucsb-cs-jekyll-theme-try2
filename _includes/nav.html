@@ -8,7 +8,7 @@
        {%- if link.url contains '://' -%}
          {%- assign url = link.url -%}
        {%- else -%}
-          {%- if link.baseurl and link.baseurl == site.baseurl -%}
+          {%- if link.baseurl == site.baseurl -%}
              {%- assign url = link.url | relative_url -%}
           {%- else -%}
            {%- capture url -%}{{site.url}}{{site.baseurl}}{{link.url}}{%- endcapture -%}
