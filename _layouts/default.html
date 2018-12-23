@@ -20,7 +20,7 @@
       
       {{ content }}
 
-      {%- if page.collection = "topics" -%}
+      {%- if page.collection == "topics" -%}
         {% if page.category_prefix %}
           {% include category_index.html %}
         {% endif %}    
