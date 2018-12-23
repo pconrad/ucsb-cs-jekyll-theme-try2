@@ -1,11 +1,17 @@
+{%- if site.data.navigation.offerings -%}
+
 <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Dropdown
+  <a class="nav-link dropdown-toggle" href="#" id="offerings-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    {{site.data.navigation.offerings[1].title | default: "Select Offering" }}
   </a>
-  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Something else here</a>
+  <div class="dropdown-menu" aria-labelledby="offerings-dropdown">
+    {%- for link in site.data.navigation.offerings -%}
+      <a class="dropdown-item" href="{{ url }}"
+        {%- if link.description -%}
+         title="{{ link.description }}"
+        {%- endif -%}>{{ link.title }}</a>
+    {%- endfor -%}
   </div>
 </li>
+
+{%- endif -%}
