@@ -190,5 +190,11 @@ td.h03-table table * td,th {
     padding: 4px;
 }
 
+a.dropdown_toggle {
+    display: none;
+}
 
 
+nav > a {
+    display: inline;
+}
