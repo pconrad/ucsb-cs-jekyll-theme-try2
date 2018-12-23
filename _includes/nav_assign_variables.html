@@ -13,10 +13,10 @@
 {%- if home_url contains '://' -%}
   {%- assign home_url_final = home_url -%}
 {%- else -%}
-  {%- if link.baseurl == site.baseurl -%}
+  {%- if home_url == site.baseurl -%}
     {%- assign home_url_final = home_url | relative_url -%}
   {%- else -%}
-     {%- capture home_url_final -%}{{production_url}}{{link.baseurl}}{{home_url}}{%- endcapture -%}
+     {%- capture home_url_final -%}{{production_url}}{{home_url}}{%- endcapture -%}
   {%- endif -%}
 {%- endif -%}
 
@@ -31,3 +31,13 @@
 {% else %}
   {% assign offering_baseurl = "/" %}
 {% endif %}
+
+{%- if offering_baseurl contains '://' -%}
+  {%- assign offering_baseurl_final = offering_baseurl -%}
+{%- else -%}
+  {%- if offering_baseurl == site.baseurl -%}
+    {%- assign offering_baseurl_final = offering_baseurl | relative_url -%}
+  {%- else -%}
+     {%- capture offering_baseurl_final -%}{{production_url}}{{offering_baseurl}}{%- endcapture -%}
+  {%- endif -%}
+{%- endif -%}
