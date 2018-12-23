@@ -1,0 +1,21 @@
+{% if site.data.navigation.production_url %}
+  {% assign production_url = site.data.navigation.production_url %}
+{% else %}
+  {% assign production_url = site.url %}
+{% endif %}
+
+{% if site.data.navigation.home.url %}
+  {% assign home_url = site.data.navigation.home_url %}
+{% else %}
+  {% assign home_url = site.url %}
+{% endif %}
+
+{%- if home_url contains '://' -%}
+  {%- assign home_url_final = home_url -%}
+{%- else -%}
+  {%- if link.baseurl == site.baseurl -%}
+    {%- assign home_url_final = home_url | relative_url -%}
+  {%- else -%}
+     {%- capture home_url_final -%}{{production_url}}{{link.baseurl}}{{home_url}}{%- endcapture -%}
+  {%- endif -%}
+{%- endif -%}
