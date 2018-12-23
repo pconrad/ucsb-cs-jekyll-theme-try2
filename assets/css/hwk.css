@@ -190,20 +190,24 @@ td.h03-table table * td,th {
     padding: 4px;
 }
 
-a.dropdown-toggle {
-    border: 1px solid red;
+nav a.dropdown-toggle {
+    /* border: 1px solid red; */
+    display: none;
 }
 
-div.dropdown-menu {
-    border: 1px solid green;
+nav div.dropdown-menu {
+    /* border: 1px solid green; */
+    display: none;
 }
 
 nav a {
     border: 1px solid purple;
+    display: inline;
 }
 
 nav button {
-    border: 1px solid blue;
-    background-color: pink;
+   /* border: 1px solid blue;
+    background-color: pink; */
+    display: none;
 }
 
