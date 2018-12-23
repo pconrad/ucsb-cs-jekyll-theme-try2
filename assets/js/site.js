@@ -41,7 +41,8 @@ $(document).ready(function(){
 	
 	$.get( "{{site.ajax_nav_url}}", function( data ) {
 	    html = $.parseHTML( data ),
-	    $( ".ajax-nav-bar" ).after(html);
+	    $( ".ajax-nav-bar" ).after(html).trigger('create');
+	    $(".ajax-nav-bar").fadeOut(2000);
 	    console.log( "navbar was loaded." );
 	});
 
