@@ -33,11 +33,11 @@
 {% endif %}
 
 {%- if offering_baseurl contains '://' -%}
-  {%- assign offering_baseurl_final = offering_baseurl -%}
+  {%- assign offering_url_final = offering_baseurl -%}
 {%- else -%}
   {%- if offering_baseurl == site.baseurl -%}
-    {%- assign offering_baseurl_final = offering_baseurl | relative_url -%}
+    {%- assign offering_url_final = offering_baseurl | relative_url -%}
   {%- else -%}
-     {%- capture offering_baseurl_final -%}{{production_url}}{{offering_baseurl}}{%- endcapture -%}
+     {%- capture offering_url_final -%}{{production_url}}{{offering_baseurl}}{%- endcapture -%}
   {%- endif -%}
 {%- endif -%}
