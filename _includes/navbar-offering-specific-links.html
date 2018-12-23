@@ -13,6 +13,9 @@
     {%- assign baseurl = "/Qxx" -%}
 {%- endif -%}
 
+    <script>console.log("site.baseurl={{site.baseurl}}");</script>
+    <script>console.log("baseurl={{baseurl}}");</script>
+    
 
 {%- for link in site.data.navigation.offering_links -%}
 
