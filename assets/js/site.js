@@ -44,14 +44,17 @@ $(document).ready(function(){
 		url: "{{site.ajax_nav_url}}",
 		type: "GET",
 		cache: true,
-	    }, function( data ) {
+	    }).done( function( data ) {
 		html = $.parseHTML( data ),
 		$( ".ajax-nav-bar" ).after(html);
 		$('nav').each( function(i) {
 		    $(this).navbar();
 		});
 		$(".ajax-nav-bar").fadeOut();			   
-		console.log( "navbar was loaded." );
+		console.log("AJAX call to load navbar completed");
+	    })
+	    .fail(function() {
+		console.log("AJAX call to load navbar failed");
 	    });
 	
 	{%- endif -%}
