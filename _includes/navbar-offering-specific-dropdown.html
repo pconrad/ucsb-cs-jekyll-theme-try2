@@ -2,11 +2,12 @@
 {%- capture dropdown_id -%}navbar-offering-specific-dropdown-{{dropdown_title}}{%- endcapture -%}
 
 <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" id="{{dropdown_id}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{dropdown_title}}</a>
+  <a class="nav-link dropdown-toggle" href="#" id="{{dropdown_id}}" data-toggle="dropdown" aria-haspopup="true"
+     aria-expanded="false">{{dropdown_title}}</a>
     <div class="dropdown-menu" aria-labelledby="{{dropdown_id}}">
       {%- for link in dropdown.dropdown -%}
          <script>console.log("Inside the dropdown.dropdown loop");</script>
-         {%- include navbar-offering-specific-link.html -%}
+         {%- include navbar-offering-specific-link.html class="dropdown-item" -%}
       {%- endfor -%}
     </div>
 </li>
