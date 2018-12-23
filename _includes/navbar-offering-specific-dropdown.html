@@ -8,7 +8,7 @@
   </button>
   <div class="collapse navbar-collapse" id="{{dropdown_id}}">
     <ul class="navbar-nav mr-auto">
-      {%- for link in site.data.navigation.offering_links -%}
+      {%- for link in dropdown.dropdown -%}
          {%- include navbar-offering-specific-link.html -%}
       {%- endfor -%}
     </ul>
