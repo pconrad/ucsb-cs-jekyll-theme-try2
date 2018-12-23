@@ -4,45 +4,33 @@
   {% assign production_url = site.url %}
 {% endif %}
 
-{% if site.data.navigation.brand.url %}
-  {% assign brand_url = site.data.navigation.brand_url %}
+{% if site.data.navigation.home.url %}
+  {% assign home_url = site.data.navigation.home_url %}
 {% else %}
-  {% assign brand_url = site.url %}
+  {% assign home_url = site.url %}
 {% endif %}
 
-{%- if brand_url contains '://' -%}
-  {%- assign brand_url_final = brand_url -%}
+{%- if home_url contains '://' -%}
+  {%- assign home_url_final = home_url -%}
 {%- else -%}
   {%- if link.baseurl == site.baseurl -%}
-    {%- assign brand_url_final = brand_url | relative_url -%}
+    {%- assign home_url_final = home_url | relative_url -%}
   {%- else -%}
-     {%- capture brand_url_final -%}{{production_url}}{{link.baseurl}}{{brand_url}}{%- endcapture -%}
+     {%- capture home_url_final -%}{{production_url}}{{link.baseurl}}{{home_url}}{%- endcapture -%}
   {%- endif -%}
 {%- endif -%}
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-  <a class="navbar-brand" href="{{brand_url_final}}">{{ site.data.navigation.brand.title | default: 'Home' }}</a>
+  <a class="navbar-brand" href="{{home_url_final}}">{{ site.data.navigation.home.title | default: 'Home' }}</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      {%- for link in site.data.navigation.main -%}
-
-       {%- if link.url contains '://' -%}
-         {%- assign url = link.url -%}
-       {%- else -%}
-         {%- if link.baseurl == site.baseurl -%}
-             {%- assign url = link.url | relative_url -%}
-         {%- else -%}
-             {%- capture url -%}{{production_url}}{{link.baseurl}}{{link.url}}{%- endcapture -%}
-         {%- endif -%}
-       {%- endif -%}
-
-      <a class="nav-item nav-link " href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-      {%- endfor -%}
-    </div>
+    <ul class="navbar-nav mr-auto">
+      {%- include navbar-offerings-dropdown -%}
+      {%- include navbar-links -%}
+    </ul>
   </div>
   </nav>
 
