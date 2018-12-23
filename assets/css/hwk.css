@@ -190,10 +190,13 @@ td.h03-table table * td,th {
     padding: 4px;
 }
 
-a.dropdown_toggle {
+nav > a.dropdown-toggle {
     display: none;
 }
 
+nav > div.dropdown-menu {
+    display: none;
+}
 
 nav > a {
     display: inline;
