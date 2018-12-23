@@ -1,5 +1,7 @@
 {% if site.ajax_nav_url %}
-<div class="ajax-nav-bar" style="display:none;"></div>
+<div class="ajax-nav-bar">
+<p>Loading <a href="{{ site.ajax_nav_url}}">navbar</a></p>
+</div>
 {% else %}
   {% include nav_main.html %}
 {% endif %}
