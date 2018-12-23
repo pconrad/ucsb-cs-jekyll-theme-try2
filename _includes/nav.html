@@ -1,27 +1,54 @@
 <div data-role="header" class="header">
+
+  {% if site.data.navigation.main and site.data.navigation.main.size > 0 %}
  <nav data-role="navbar" >
-  <ul>
-    <li><a href="https://ucsb-cs56-pconrad.github.io">UCSB {{site.course}} pconrad</a></li>
-    <li><a href="{{ '/' | relative_url }}" class="ui-btn-active">{{site.course}} {{site.qtr}}</a></li>
-    <li><a href="https://github.com/ucsb-cs56-pconrad">ucsb-cs56-pconrad github org</a></li>
-    <li><a href="/info/office_hours/">Office Hours</a></li>
-  </ul>
+   <ul>
+     {%- for link in site.data.navigation.main limit:4 -%}
+       {%- if link.url contains '://' -%}
+         {%- assign url = link.url -%}
+       {%- else -%}
+         {%- assign url = link.url | relative_url -%}
+       {%- endif -%}
+     
+     <li>
+       <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+     </li>
+     {%- endfor -%}
+   </ul>
  </nav>
+ {% else %}
  <nav data-role="navbar" >
-  <ul>
-   <li><a href="{{site.gauchospace_course_page}}">Gauchospace</a></li>
-   <li><a href="{{site.piazza_url | relative_url }}">Piazza</a></li>
-   <li><a href="https://github.com/ucsb-cs56-f18">F18 github org</a></li>
-   <li><a href="https://github.com/ucsb-cs56-webapps">webapps</a></li>
-  </ul>
- </nav>
+   <ul>
+     <a href="{{ '' | relative_url }}">Home</a>
+   </ul>
+   </nav>
+  {% endif %}
+
+   {% if site.data.navigation.main.size > 4 %}
+   <nav data-role="navbar" >
+   <ul>
+     {%- for link in site.data.navigation.main offset:4 -%}
+       {%- if link.url contains '://' -%}
+         {%- assign url = link.url -%}
+       {%- else -%}
+         {%- assign url = link.url | relative_url -%}
+       {%- endif -%}
+     
+     <li>
+       <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+     </li>
+     {%- endfor -%}
+   </ul>
+  </nav>
+  {% endif }
+
  {% if page.layout == "hwk" %}
  <nav data-role="navbar" >
   <ul class="hwk-nav-bar">
-  {% for asn in site.hwk %}
+   {% for asn in site.hwk %}
     <li><a href="{{asn.url | relative_url }}">{{asn.num}}</a></li>
-  {% endfor %}
-  </ul>
- </nav>
-{% endif %}
+   {% endfor %}
+   </ul>
+  </nav>
+ {% endif %}
 </div>
