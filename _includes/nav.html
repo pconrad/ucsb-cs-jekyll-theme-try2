@@ -11,7 +11,7 @@
           {%- if link.baseurl == site.baseurl -%}
              {%- assign url = link.url | relative_url -%}
           {%- else -%}
-           {%- capture url -%}{{site.url}}{{site.baseurl}}{{link.url}}{%- endcapture -%}
+           {%- capture url -%}{{site.url}}{{link.baseurl}}{{link.url}}#{%- endcapture -%}
           {%- endif -%}
        {%- endif -%}
      
