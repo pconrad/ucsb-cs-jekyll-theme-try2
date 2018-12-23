@@ -9,7 +9,23 @@
     <div id="container" data-role="page">
     {% include nav.html %}
     <div id="content"  class="ui-content">
-    {{ content }}
+      {%- if page.collection == "topics" -%}
+          <h1>{{ page.topic}}</h1>
+          <p class="topic-summary">{{ page.desc }}</p>
+          {% if page.topic_index_top and page.category_prefix %}
+            {% include category_index.html %}
+          {% endif %}    
+
+      {%- endif -%}
+      
+      {{ content }}
+
+      {%- if page.collection = "topics" -%}
+        {% if page.category_prefix %}
+          {% include category_index.html %}
+        {% endif %}    
+      {%- endif -%}
+      
     </div><!-- content -->
     {% include footer/custom.html %}
     {% include footer.html %}
