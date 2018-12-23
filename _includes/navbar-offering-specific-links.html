@@ -19,7 +19,9 @@
       {%- include navbar-offering-specific-dropdown.html -%}
     {%- else -%}
        {%- assign link = item -%}
-       {%- include navbar-offering-specific-link.html class="nav-item" -%}
+       <li class="nav-item">
+	 {%- include navbar-offering-specific-link.html class="nav-item" -%}
+       </li>	 
     {%- endif -%}
 {%- endfor -%}
 
