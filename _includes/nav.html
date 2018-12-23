@@ -1,7 +1,15 @@
 <div data-role="header" class="header">
 
   {% if site.data.navigation.main and site.data.navigation.main.size > 0 %}
- <nav data-role="navbar" >
+  <!-- first row for 1-4 items from _data/navigation.yml -->
+  
+    {% if site.data.navigation.production_url %}
+      {% assign production_url = site.data.navigation.production_url %}
+     {% else %}
+       {% assign production_url = site.url %}
+    {% endif %}
+
+  <nav data-role="navbar" >
    <ul>
      {%- for link in site.data.navigation.main limit:4 -%}
 
@@ -11,7 +19,7 @@
           {%- if link.baseurl == site.baseurl -%}
              {%- assign url = link.url | relative_url -%}
           {%- else -%}
-           {%- capture url -%}{{site.url}}{{link.baseurl}}{{link.url}}#{%- endcapture -%}
+           {%- capture url -%}{{production_url}}{{link.baseurl}}{{link.url}}#{%- endcapture -%}
           {%- endif -%}
        {%- endif -%}
      
@@ -22,8 +30,9 @@
      {%- endfor -%}
    </ul>
  </nav>
- {% else %}
- <nav data-role="navbar" >
+  {% else %}
+  <!-- default navbar when nothing is defined in _data/navigation.yml -->
+  <nav data-role="navbar" >
    <ul>
      <a href="{{ '' | relative_url }}">Home</a>
    </ul>
@@ -31,6 +40,7 @@
   {% endif %}
 
    {% if site.data.navigation.main.size > 4 %}
+   <!-- second row for when there are more than 4 items -->
    <nav data-role="navbar" >
    <ul>
      {%- for link in site.data.navigation.main offset:4 -%}
