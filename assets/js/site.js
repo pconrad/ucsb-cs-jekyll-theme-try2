@@ -39,16 +39,21 @@ $(document).ready(function(){
     $('.ajax-nav-bar').each( function(i) {
 	{%- if site.ajax_nav_url -%}
 	
-	$.get( "{{site.ajax_nav_url}}", function( data ) {
-	    html = $.parseHTML( data ),
-	    $( ".ajax-nav-bar" ).after(html);
-	    $('nav').each( function(i) {
-		$(this).navbar();
+	$.ajax(
+	    {
+		url: "{{site.ajax_nav_url}}",
+		type: "GET",
+		cache: true,
+	    }, function( data ) {
+		html = $.parseHTML( data ),
+		$( ".ajax-nav-bar" ).after(html);
+		$('nav').each( function(i) {
+		    $(this).navbar();
+		});
+		$(".ajax-nav-bar").fadeOut();			   
+		console.log( "navbar was loaded." );
 	    });
-	    $(".ajax-nav-bar").fadeOut();			   
-	    console.log( "navbar was loaded." );
-	});
-
+	
 	{%- endif -%}
     });
 
