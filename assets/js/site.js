@@ -45,8 +45,7 @@ $(document).ready(function(){
 	    $('nav').each( function(i) {
 		$(this).navbar();
 	    });
-	    $(".ajax-nav-bar").color("red");
-	    $(".ajax-nav-bar").fadeOut(2000);			   
+	    $(".ajax-nav-bar").fadeOut();			   
 	    console.log( "navbar was loaded." );
 	});
 
