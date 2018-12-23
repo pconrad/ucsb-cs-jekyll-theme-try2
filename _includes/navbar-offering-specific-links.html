@@ -20,7 +20,7 @@
       {%- assign url = link.url -%}
     {%- else -%}
       {%- if site.baseurl == "/" -%}
-       {%- capture url -%}{{production_url}}{{baseurl}}{{link.url}}{%- endcapture -%}
+       {%- capture url -%}{{production_url}}XXX{{baseurl}}YYY{{link.url}}{%- endcapture -%}
       {%- else -%}
        {%- assign url = link.url | relative_url -%}
       {%- endif -%}
