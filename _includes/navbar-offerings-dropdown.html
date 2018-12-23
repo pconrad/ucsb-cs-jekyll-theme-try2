@@ -1,8 +1,8 @@
 {%- if site.data.navigation.offerings -%}
 
 <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="offerings-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    {{site.data.navigation.offerings[1].title | default: "Select Offering" }}
+  <a class="nav-link dropdown-toggle" href="#" id="offerings-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    {{site.data.navigation.offerings[0].title | default: "-" }}
   </a>
   <div class="dropdown-menu" aria-labelledby="offerings-dropdown">
     {%- for link in site.data.navigation.offerings -%}
