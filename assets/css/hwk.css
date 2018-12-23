@@ -198,6 +198,12 @@ div.dropdown-menu {
     border: 1px solid green;
 }
 
-nav > a {
+nav a {
     border: 1px solid purple;
 }
+
+nav button {
+    border: 1px solid blue;
+    background-color: pink;
+}
+
