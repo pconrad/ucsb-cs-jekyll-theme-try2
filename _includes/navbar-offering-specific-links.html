@@ -13,19 +13,15 @@
     {%- assign baseurl = "/Qxx" -%}
 {%- endif -%}
 
-    <script>console.log("site.baseurl={{site.baseurl}}");</script>
-    <script>console.log("baseurl={{baseurl}}");</script>
-    
-
 {%- for link in site.data.navigation.offering_links -%}
 
     {%- if link.url contains '://' -%}
       {%- assign url = link.url -%}
     {%- else -%}
-      {%- if site.baseurl == "/" -%}
-       {%- capture url -%}{{production_url}}XXX{{baseurl}}YYY{{link.url}}{%- endcapture -%}
-      {%- else -%}
+      {%- if site.baseurl == baseurl -%}
        {%- assign url = link.url | relative_url -%}
+      {%- else -%}
+       {%- capture url -%}{{production_url}}{{baseurl}}{{link.url}}{%- endcapture -%}
       {%- endif -%}
     {%- endif -%}
    <li class="nav-item">
