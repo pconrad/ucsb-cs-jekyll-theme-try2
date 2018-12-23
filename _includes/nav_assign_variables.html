@@ -36,8 +36,8 @@
   {%- assign offering_url_final = offering_baseurl -%}
 {%- else -%}
   {%- if offering_baseurl == site.baseurl -%}
-    {%- assign offering_url_final = offering_baseurl | relative_url -%}
+    {%- assign offering_url_final = offering_url | relative_url -%}
   {%- else -%}
-     {%- capture offering_url_final -%}{{production_url}}{{offering_baseurl}}{%- endcapture -%}
+     {%- capture offering_url_final -%}{{production_url}}{{offering_baseurl}}{{offering_url}}{%- endcapture -%}
   {%- endif -%}
 {%- endif -%}
