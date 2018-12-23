@@ -29,13 +29,22 @@ function countPoints(n) {                     // n is a Node
   return numpoints;   // Return total of all children's points
 }
 
-
-
 $(document).ready(function(){
     console.log("site.js: document is ready");
 
     $('.template').each(function(i) {
 	$(this).css('display','none');
+    });
+
+    $('.ajax-nav-bar').each( function(i) {
+	{%- if site.ajax_nav_url -%}
+	
+	$.get( "{{site.ajax_nav_url}}", function( data ) {
+	    $( ".ajax-nav-bar" ).html( data );
+	    console.log( "navbar was loaded." );
+	});
+
+	{%- endif -%}
     });
 
     // Use with  <div class="copy-of" data-id="foo"></div>
