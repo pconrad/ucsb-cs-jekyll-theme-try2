@@ -191,13 +191,13 @@ td.h03-table table * td,th {
 }
 
 a.dropdown-toggle {
-    color: red;
+    border: 1px solid red;
 }
 
 nav > div.dropdown-menu {
-    color: green;
+    border: 1px solid green;
 }
 
 nav > a {
-    color: purple;
+    border: 1px solid purple;
 }
