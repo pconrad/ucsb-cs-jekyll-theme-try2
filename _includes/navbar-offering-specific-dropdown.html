@@ -1,17 +1,13 @@
 {%- capture dropdown_title -%}{{dropdown.title | default: NO_TITLE}}{%- endcapture -%}
 {%- capture dropdown_id -%}navbar-offering-specific-dropdown-{{dropdown_title}}{%- endcapture -%}
 
-<button class="navbar-toggler" type="button" data-toggle="collapse"
-	data-target="#{{dropdown_id}}"
-	aria-controls="{{dropdown_id}}" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="{{dropdown_id}}">
-    <ul class="navbar-nav mr-auto">
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="{{dropdown_id}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{dropdown_title}}</a>
+    <div class="dropdown-menu" aria-labelledby="{{dropdown_id}}">
       {%- for link in dropdown.dropdown -%}
          {%- include navbar-offering-specific-link.html -%}
       {%- endfor -%}
-    </ul>
-  </div>
-</nav>
+    </div>
+</li>
+
 
