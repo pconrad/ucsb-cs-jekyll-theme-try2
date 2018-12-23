@@ -13,23 +13,14 @@
     {%- assign baseurl = "/Qxx" -%}
 {%- endif -%}
 
-{%- for link in site.data.navigation.offering_links -%}
-
-    {%- if link.url contains '://' -%}
-      {%- assign url = link.url -%}
+{%- for item in site.data.navigation.offering_links -%}
+    {%- if item.dropdown -%}
+      {%- assign dropdown = item -%}
+      {%- include navbar-offering-specific-dropdown.html -%}
     {%- else -%}
-      {%- if site.baseurl == baseurl -%}
-       {%- assign url = link.url | relative_url -%}
-      {%- else -%}
-       {%- capture url -%}{{production_url}}{{baseurl}}{{link.url}}{%- endcapture -%}
-      {%- endif -%}
+       {%- assign link = item -%}
+       {%- include navbar-offering-specific-link.html -%}
     {%- endif -%}
-   <li class="nav-item">
-   <a class="nav-link " href="{{ url }}"
-      {%- if link.description -%}
-      title="{{ link.description }}"
-      {%- endif -%}>{{ link.title }}</a>
-   </li>
 {%- endfor -%}
 
 {%- endif -%}
