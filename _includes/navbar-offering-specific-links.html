@@ -1,0 +1,39 @@
+{%- if site.data.navigation.offering_links -%}
+
+{%- if site.data.navigation.offerings -%}
+  {%- assign offerings = site.data.navigation.offerings -%}
+  {%- capture title -%}{{ offerings.title | default: "Qxx"}}{%- endcapture -%}
+  {%- capture baseurl -%}{{ offerings.baseurl | default: "/Qxx"}}{%- endcapture -%}
+{%- else -%}
+    <!-- NOTE: Missing offerings section in  _data/navigation.yml -->
+    <script>
+      console.log("WARNING: define offerings in _data/navigation.yml");
+    </script>
+    {%- assign title = "Qxx" -%}
+    {%- assign baseurl = "/Qxx" -%}
+{%- endif -%}
+
+
+
+<li class="nav-item offering-title">For {{title}}: </li>
+    
+{%- for link in site.data.navigation.offering_links -%}
+
+    {%- if link.url contains '://' -%}
+      {%- assign url = link.url -%}
+    {%- else -%}
+      {%- if site.baseurl == "/" -%}
+       {%- capture url -%}{{production_url}}{{baseurl}}{{link.url}}{%- endcapture -%}
+      {%- else -%}
+       {%- assign url = link.url | relative_url -%}
+      {%- endif -%}
+    {%- endif -%}
+   <li class="nav-item">
+   <a class="nav-link " href="{{ url }}"
+      {%- if link.description -%}
+      title="{{ link.description }}"
+      {%- endif -%}>{{ link.title }}</a>
+   </li>
+{%- endfor -%}
+
+{%- endif -%}
