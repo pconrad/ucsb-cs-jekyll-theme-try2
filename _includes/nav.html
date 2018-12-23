@@ -1,5 +1,11 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  {% if site.data.navigation.production_url %}
+    {% assign production_url = site.data.navigation.production_url %}
+  {% else %}
+    {% assign production_url = site.url %}
+  {% endif %}
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+1
   <a class="navbar-brand" href="{{site.data.navigation.brand.url | default: '/' }}">{{ site.data.navigation.brand.title | default: 'Home' }}</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -18,7 +24,7 @@
          {%- endif -%}
        {%- endif -%}
 
-      <a  class="nav-item nav-link " href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+      <a class="nav-item nav-link " href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
       {%- endfor -%}
     </div>
   </div>
