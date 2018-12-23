@@ -1,7 +1,8 @@
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+
 <div data-role="header" class="header">
 
   {% if site.data.navigation.main and site.data.navigation.main.size > 0 %}
-  <!-- first row for 1-4 items from _data/navigation.yml -->
   
     {% if site.data.navigation.production_url %}
       {% assign production_url = site.data.navigation.production_url %}
@@ -10,8 +11,13 @@
     {% endif %}
 
   <nav data-role="navbar" >
-   <ul>
-     {%- for link in site.data.navigation.main limit:4 -%}
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+	
+     {%- for link in site.data.navigation.main -%}
 
        {%- if link.url contains '://' -%}
          {%- assign url = link.url -%}
@@ -22,50 +28,18 @@
            {%- capture url -%}{{production_url}}{{link.baseurl}}{{link.url}}{%- endcapture -%}
           {%- endif -%}
        {%- endif -%}
-     
-     
-     <li>
+          
+     <li class="nav-item">
        <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
      </li>
      {%- endfor -%}
-   </ul>
+    </ul>
+   </div> 
  </nav>
   {% else %}
   <!-- default navbar when nothing is defined in _data/navigation.yml -->
-  <nav data-role="navbar" >
-   <ul>
-     <a href="{{ '' | relative_url }}">Home</a>
-   </ul>
-   </nav>
-  {% endif %}
-
-   {% if site.data.navigation.main.size > 4 %}
-   <!-- second row for when there are more than 4 items -->
-   <nav data-role="navbar" >
-   <ul>
-     {%- for link in site.data.navigation.main offset:4 -%}
-       {%- if link.url contains '://' -%}
-         {%- assign url = link.url -%}
-       {%- else -%}
-         {%- assign url = link.url | relative_url -%}
-       {%- endif -%}
-     
-     <li>
-       <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-     </li>
-     {%- endfor -%}
-   </ul>
-  </nav>
-  {% endif %}
-
- {% if page.layout == "hwk" %}
- <nav data-role="navbar" >
-  <ul class="hwk-nav-bar">
-   {% for asn in site.hwk %}
-    <li><a href="{{asn.url | relative_url }}">{{asn.num}}</a></li>
-   {% endfor %}
-   </ul>
+  <nav  class="navbar navbar-light bg-light" >
+      <a href="{{ '' | relative_url }}">Home</a>
   </nav>
  {% endif %}
-</div>
 
