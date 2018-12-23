@@ -19,3 +19,15 @@
      {%- capture home_url_final -%}{{production_url}}{{link.baseurl}}{{home_url}}{%- endcapture -%}
   {%- endif -%}
 {%- endif -%}
+
+{% if site.data.navigation.offerings.url %}
+  {% assign offering_url = site.data.navigation.offerings.url %}
+{% else %}
+  {% assign offering_url = "#" %}
+{% endif %}
+
+{% if site.data.navigation.offerings.baseurl %}
+  {% assign offering_baseurl = site.data.navigation.offerings.baseurl %}
+{% else %}
+  {% assign offering_baseurl = "/" %}
+{% endif %}

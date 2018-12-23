@@ -5,7 +5,8 @@
     <li>
       <a class="navbar-brand" href="{{home_url_final}}">{{ site.data.navigation.home.title | default: 'Home' }}</a>
     </li>
-    <li class="print-navbar-offering-title">{{site.data.navigation.offerings.title | default: "-" }}</li>
+    <li class="print-navbar-offering-title">
+      <a href="{{offering_url | default: "#" }}">{{site.data.navigation.offerings.title | default: "-" }}</a></li>
     {%- include navbar-offering-specific-links.html -%}
     </ul>
   </div>
