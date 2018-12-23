@@ -4,11 +4,17 @@
  <nav data-role="navbar" >
    <ul>
      {%- for link in site.data.navigation.main limit:4 -%}
+
        {%- if link.url contains '://' -%}
          {%- assign url = link.url -%}
        {%- else -%}
-         {%- assign url = link.url | relative_url -%}
+          {%- if link.baseurl and link.baseurl = site.baseurl -%}
+             {%- assign url = link.url | relative_url -%}
+          {%- else -%}
+           {%- capture url -%}{{site.url}}{{site.baseurl}}{{link.url}}{%- endcapture -%}
+          {%- endif -%}
        {%- endif -%}
+     
      
      <li>
        <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
