@@ -40,7 +40,8 @@ $(document).ready(function(){
 	{%- if site.ajax_nav_url -%}
 	
 	$.get( "{{site.ajax_nav_url}}", function( data ) {
-	    $( ".ajax-nav-bar" ).html( data );
+	    html = $.parseHTML( data ),
+	    $( ".ajax-nav-bar" ).after(html);
 	    console.log( "navbar was loaded." );
 	});
 
