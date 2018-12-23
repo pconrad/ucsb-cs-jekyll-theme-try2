@@ -194,7 +194,7 @@ a.dropdown-toggle {
     border: 1px solid red;
 }
 
-nav > div.dropdown-menu {
+div.dropdown-menu {
     border: 1px solid green;
 }
 
