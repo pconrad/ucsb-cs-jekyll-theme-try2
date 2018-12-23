@@ -1,16 +1,11 @@
-<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+{% if site.data.navigation.main and site.data.navigation.main.size > 0 %}
+  {% if site.data.navigation.production_url %}
+    {% assign production_url = site.data.navigation.production_url %}
+  {% else %}
+    {% assign production_url = site.url %}
+  {% endif %}
 
-<div data-role="header" class="header">
-
-  {% if site.data.navigation.main and site.data.navigation.main.size > 0 %}
-  
-    {% if site.data.navigation.production_url %}
-      {% assign production_url = site.data.navigation.production_url %}
-     {% else %}
-       {% assign production_url = site.url %}
-    {% endif %}
-
-  <nav data-role="navbar" >
+  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -36,10 +31,10 @@
     </ul>
    </div> 
  </nav>
-  {% else %}
-  <!-- default navbar when nothing is defined in _data/navigation.yml -->
-  <nav  class="navbar navbar-light bg-light" >
-      <a href="{{ '' | relative_url }}">Home</a>
-  </nav>
- {% endif %}
+{% else %}
+ <!-- default navbar when nothing is defined in _data/navigation.yml -->
+ <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+   <a href="{{ '' | relative_url }}">Home</a>
+ </nav>
+{% endif %}
 
