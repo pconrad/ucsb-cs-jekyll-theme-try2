@@ -25,7 +25,7 @@
        {%- endif -%}
           
      <li class="nav-item">
-       <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+       <a  class="nav-link" href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
      </li>
      {%- endfor -%}
     </ul>
