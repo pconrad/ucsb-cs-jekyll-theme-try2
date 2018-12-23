@@ -5,6 +5,7 @@
     <a class="nav-link dropdown-toggle" href="#" id="{{dropdown_id}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{dropdown_title}}</a>
     <div class="dropdown-menu" aria-labelledby="{{dropdown_id}}">
       {%- for link in dropdown.dropdown -%}
+         <script>console.log("Inside the dropdown.dropdown loop");</script>
          {%- include navbar-offering-specific-link.html -%}
       {%- endfor -%}
     </div>
