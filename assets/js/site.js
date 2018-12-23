@@ -36,30 +36,6 @@ $(document).ready(function(){
 	$(this).css('display','none');
     });
 
-    $('.ajax-nav-bar').each( function(i) {
-	{%- if site.ajax_nav_url -%}
-	
-	$.ajax(
-	    {
-		url: "{{site.ajax_nav_url}}",
-		type: "GET",
-		cache: true,
-	    }).done( function( data ) {
-		html = $.parseHTML( data ),
-		$( ".ajax-nav-bar" ).after(html);
-		$('nav').each( function(i) {
-		    $(this).navbar();
-		});
-		$(".ajax-nav-bar").fadeOut();			   
-		console.log("AJAX call to load navbar completed");
-	    })
-	    .fail(function() {
-		console.log("AJAX call to load navbar failed");
-	    });
-	
-	{%- endif -%}
-    });
-
     // Use with  <div class="copy-of" data-id="foo"></div>
     // Use   <div id="foo" class="template"></div> on the stuff you want to copy
     // The class="template" will hide it the first time.
