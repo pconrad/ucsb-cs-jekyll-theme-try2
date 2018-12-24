@@ -10,7 +10,9 @@
 {%- endif -%}
 
 {%- if url contains "https://github.com" -%}
- {%- assign logo = "<i class='fab fa-github'></i>&nbsp;" -%}
+ {%- assign logo = "<i class='fab fa-github' aria-hidden='true'></i>&nbsp;" -%}
+{%- elsif link.description contains "Calendar" or link.description contains "calendar" -%}
+ {%- assign logo = "<i class='fa fa-calendar' aria-hidden='true'></i>&nbsp;" -%}
 {%- else -%}
   {%- assign logo = "" -%}
 {%- endif -%}
