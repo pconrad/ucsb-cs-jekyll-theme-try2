@@ -9,9 +9,14 @@
   {%- endif -%}
 {%- endif -%}
 
+{%- if url contains "https://github.com" -%}
+ {%- assign logo = "<i class="fab fa-github"></i>" -%}
+{%- else -%}
+  {%- assign logo = "" -%}
+{%- endif -%}
 
 <a class="{{include.class}}" href="{{ url }}"
       {%- if link.description -%}
       title="{{ link.description }}"
-      {%- endif -%}>{{ link.title }}</a>
+      {%- endif -%}>{{logo}}{{ link.title }}</a>
 
