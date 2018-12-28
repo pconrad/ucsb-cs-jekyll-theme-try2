@@ -30,7 +30,6 @@ function countPoints(n) {                     // n is a Node
 }
 
 $(document).ready(function(){
-    console.log("site.js: document is ready");
 
     $('.template').each(function(i) {
 	$(this).css('display','none');
@@ -66,5 +65,4 @@ $(document).ready(function(){
 
 
 	       
-    console.log("site.js: done");
 });

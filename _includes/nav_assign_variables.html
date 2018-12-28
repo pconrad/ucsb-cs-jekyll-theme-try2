@@ -13,7 +13,7 @@
 {%- if home_url contains '://' -%}
   {%- assign home_url_final = home_url -%}
 {%- else -%}
-  {%- if home_url == site.baseurl -%}
+  {%- if home_url == "" or home.url =="/" -%}
     {%- assign home_url_final = home_url | relative_url -%}
   {%- else -%}
      {%- capture home_url_final -%}{{production_url}}{{home_url}}{%- endcapture -%}

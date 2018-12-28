@@ -6,8 +6,6 @@ layout: null
 
 
 $(document).ready(function(){
-    console.log("exam.js: document is ready");
-
 
     
     $('.page-break-before').each(function(i) {
@@ -45,5 +43,4 @@ $(document).ready(function(){
 	}
     });
 
-    console.log("exam.js: done");
 });
