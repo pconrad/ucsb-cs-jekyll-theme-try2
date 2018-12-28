@@ -9,7 +9,7 @@
 <tr>
   <td><a href="{{lect.url | relative_url }}">{{ lect.num }}</a></td>
   <td>{{ lect.date | date: "%a %m/%d" }}</td>
-  <td>{{ lect.desc }}</td>
+  <td>{{ lect.desc }}{% if lect.slides %}&nbsp;(<a href="{{lect.slides|relative_url}}">slides</a>){% endif%}</td>
 </tr>
 {% endfor %}
 </table>
