@@ -1,0 +1,7 @@
+{%- if site.data.navigation.offerings -%}
+{%- if site.data.navigation.offerings.items.size > 1 -%}
+  {%- include navbar-offerings-dropdown.html -%}
+{%- else -%}
+  {%- include navbar-offerings-single.html -%}
+</li>
+{%- endif -%}
